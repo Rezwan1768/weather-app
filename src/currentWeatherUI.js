@@ -1,25 +1,17 @@
 import { createElement, createImgElement } from "./util.js";
 import clouds from "../images/clouds.svg";
 
+export function currentWeather({temp, feelslike, conditions, precipprob, humidity}) {
+    const forecastContainer = currentForecast(conditions);
+    const tempContainer = currentTemp(temp, feelslike);
+    const conditionContainer = currentConditions(precipprob, humidity);
 
-export function currentWeather(data) {
-    const forecastContainer = currentForecast(data);
-    const tempContainer = currentTemp(data);
     const forecastAndTempContainer = createElement("div", "weather-now");
     forecastAndTempContainer.append(forecastContainer, tempContainer);
-    const conditionContainer = currentConditions(data);
     
     const weatherContainer = createElement("div", "current-weather");
     weatherContainer.append(forecastAndTempContainer, conditionContainer);
     return weatherContainer;
-}
-
-function currentTemp({temp, feelslike}) {
-    const tempContainer = createElement("div", "temp-container");
-    const tempElement = createElement("p", "temp-now", temp);
-    const feelslikeElement = createElement("p", "feelslike-now", `Feels like: ${feelslike}`);
-    tempContainer.append(tempElement, feelslikeElement);
-    return tempContainer;
 }
 
 function currentForecast({conditions}) {
@@ -28,6 +20,14 @@ function currentForecast({conditions}) {
     const forecastElement = createElement("p","", conditions);
     forecastContainer.append(forecastImg, forecastElement);
     return forecastContainer;
+}
+
+function currentTemp({temp, feelslike}) {
+    const tempContainer = createElement("div", "temp-container");
+    const tempElement = createElement("p", "temp-now", temp);
+    const feelslikeElement = createElement("p", "feelslike-now", `Feels like: ${feelslike}`);
+    tempContainer.append(tempElement, feelslikeElement);
+    return tempContainer;
 }
 
 function currentConditions({precipprob, humidity}) {
