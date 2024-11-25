@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29.306mm" height="30.327mm" version="1.1" viewBox="0 0 103.84147 107.45762" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="bj">
+   <stop stop-color="#8fa6e0" offset="0"/>
+   <stop stop-color="#576899" offset="1"/>
+  </linearGradient>
+  <linearGradient id="bk">
+   <stop stop-color="#e4f1ff" offset="0"/>
+   <stop stop-color="#d2e8ff" offset=".19839"/>
+   <stop stop-color="#8dc5ff" offset=".50333"/>
+   <stop stop-color="#83c0ff" offset=".70377"/>
+   <stop stop-color="#3598ff" offset="1"/>
+  </linearGradient>
+  <pattern id="da" xlink:href="#cj" patternTransform="matrix(.49007 .20135 -.24454 .59519 22.409 916.24)"/>
+  <pattern id="cj" width="10" height="10" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <circle cx="2.567" cy=".81" r=".45"/>
+   <circle cx="3.048" cy="2.33" r=".45"/>
+   <circle cx="4.418" cy="2.415" r=".45"/>
+   <circle cx="1.844" cy="3.029" r=".45"/>
+   <circle cx="6.08" cy="1.363" r=".45"/>
+   <circle cx="5.819" cy="4.413" r=".45"/>
+   <circle cx="4.305" cy="4.048" r=".45"/>
+   <circle cx="5.541" cy="3.045" r=".45"/>
+   <circle cx="4.785" cy="5.527" r=".45"/>
+   <circle cx="2.667" cy="5.184" r=".45"/>
+   <circle cx="7.965" cy="1.448" r=".45"/>
+   <circle cx="7.047" cy="5.049" r=".45"/>
+   <circle cx="4.34" cy=".895" r=".45"/>
+   <circle cx="7.125" cy=".34" r=".45"/>
+   <circle cx="9.553" cy="1.049" r=".45"/>
+   <circle cx="7.006" cy="2.689" r=".45"/>
+   <circle cx="8.909" cy="2.689" r=".45"/>
+   <circle cx="9.315" cy="4.407" r=".45"/>
+   <circle cx="7.82" cy="3.87" r=".45"/>
+   <circle cx="8.27" cy="5.948" r=".45"/>
+   <circle cx="7.973" cy="7.428" r=".45"/>
+   <circle cx="9.342" cy="8.072" r=".45"/>
+   <circle cx="8.206" cy="9.315" r=".45"/>
+   <circle cx="9.682" cy="9.475" r=".45"/>
+   <circle cx="9.688" cy="6.186" r=".45"/>
+   <circle cx="3.379" cy="6.296" r=".45"/>
+   <circle cx="2.871" cy="8.204" r=".45"/>
+   <circle cx="4.59" cy="8.719" r=".45"/>
+   <circle cx="3.181" cy="9.671" r=".45"/>
+   <circle cx="5.734" cy="7.315" r=".45"/>
+   <circle cx="6.707" cy="6.513" r=".45"/>
+   <circle cx="5.73" cy="9.67" r=".45"/>
+   <circle cx="6.535" cy="8.373" r=".45"/>
+   <circle cx="4.37" cy="7.154" r=".45"/>
+   <circle cx=".622" cy="7.25" r=".45"/>
+   <circle cx=".831" cy="5.679" r=".45"/>
+   <circle cx="1.257" cy="8.519" r=".45"/>
+   <circle cx="1.989" cy="6.877" r=".45"/>
+   <circle cx=".374" cy="3.181" r=".45"/>
+   <circle cx="1.166" cy="1.664" r=".45"/>
+   <circle cx="1.151" cy=".093" r=".45"/>
+   <circle cx="1.151" cy="10.093" r=".45"/>
+   <circle cx="1.302" cy="4.451" r=".45"/>
+   <circle cx="3.047" cy="3.763" r=".45"/>
+  </pattern>
+  <pattern id="dj" xlink:href="#cv" patternTransform="matrix(.49007 .20135 -.24454 .59519 41.612 918.8)"/>
+  <pattern id="cv" width="10" height="10" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <circle cx="2.567" cy=".81" r=".45"/>
+   <circle cx="3.048" cy="2.33" r=".45"/>
+   <circle cx="4.418" cy="2.415" r=".45"/>
+   <circle cx="1.844" cy="3.029" r=".45"/>
+   <circle cx="6.08" cy="1.363" r=".45"/>
+   <circle cx="5.819" cy="4.413" r=".45"/>
+   <circle cx="4.305" cy="4.048" r=".45"/>
+   <circle cx="5.541" cy="3.045" r=".45"/>
+   <circle cx="4.785" cy="5.527" r=".45"/>
+   <circle cx="2.667" cy="5.184" r=".45"/>
+   <circle cx="7.965" cy="1.448" r=".45"/>
+   <circle cx="7.047" cy="5.049" r=".45"/>
+   <circle cx="4.34" cy=".895" r=".45"/>
+   <circle cx="7.125" cy=".34" r=".45"/>
+   <circle cx="9.553" cy="1.049" r=".45"/>
+   <circle cx="7.006" cy="2.689" r=".45"/>
+   <circle cx="8.909" cy="2.689" r=".45"/>
+   <circle cx="9.315" cy="4.407" r=".45"/>
+   <circle cx="7.82" cy="3.87" r=".45"/>
+   <circle cx="8.27" cy="5.948" r=".45"/>
+   <circle cx="7.973" cy="7.428" r=".45"/>
+   <circle cx="9.342" cy="8.072" r=".45"/>
+   <circle cx="8.206" cy="9.315" r=".45"/>
+   <circle cx="9.682" cy="9.475" r=".45"/>
+   <circle cx="9.688" cy="6.186" r=".45"/>
+   <circle cx="3.379" cy="6.296" r=".45"/>
+   <circle cx="2.871" cy="8.204" r=".45"/>
+   <circle cx="4.59" cy="8.719" r=".45"/>
+   <circle cx="3.181" cy="9.671" r=".45"/>
+   <circle cx="5.734" cy="7.315" r=".45"/>
+   <circle cx="6.707" cy="6.513" r=".45"/>
+   <circle cx="5.73" cy="9.67" r=".45"/>
+   <circle cx="6.535" cy="8.373" r=".45"/>
+   <circle cx="4.37" cy="7.154" r=".45"/>
+   <circle cx=".622" cy="7.25" r=".45"/>
+   <circle cx=".831" cy="5.679" r=".45"/>
+   <circle cx="1.257" cy="8.519" r=".45"/>
+   <circle cx="1.989" cy="6.877" r=".45"/>
+   <circle cx=".374" cy="3.181" r=".45"/>
+   <circle cx="1.166" cy="1.664" r=".45"/>
+   <circle cx="1.151" cy=".093" r=".45"/>
+   <circle cx="1.151" cy="10.093" r=".45"/>
+   <circle cx="1.302" cy="4.451" r=".45"/>
+   <circle cx="3.047" cy="3.763" r=".45"/>
+  </pattern>
+  <pattern id="dl" xlink:href="#cq" patternTransform="matrix(.49007 .20135 -.24454 .59519 62.951 921.2)"/>
+  <pattern id="cq" width="10" height="10" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <circle cx="2.567" cy=".81" r=".45"/>
+   <circle cx="3.048" cy="2.33" r=".45"/>
+   <circle cx="4.418" cy="2.415" r=".45"/>
+   <circle cx="1.844" cy="3.029" r=".45"/>
+   <circle cx="6.08" cy="1.363" r=".45"/>
+   <circle cx="5.819" cy="4.413" r=".45"/>
+   <circle cx="4.305" cy="4.048" r=".45"/>
+   <circle cx="5.541" cy="3.045" r=".45"/>
+   <circle cx="4.785" cy="5.527" r=".45"/>
+   <circle cx="2.667" cy="5.184" r=".45"/>
+   <circle cx="7.965" cy="1.448" r=".45"/>
+   <circle cx="7.047" cy="5.049" r=".45"/>
+   <circle cx="4.34" cy=".895" r=".45"/>
+   <circle cx="7.125" cy=".34" r=".45"/>
+   <circle cx="9.553" cy="1.049" r=".45"/>
+   <circle cx="7.006" cy="2.689" r=".45"/>
+   <circle cx="8.909" cy="2.689" r=".45"/>
+   <circle cx="9.315" cy="4.407" r=".45"/>
+   <circle cx="7.82" cy="3.87" r=".45"/>
+   <circle cx="8.27" cy="5.948" r=".45"/>
+   <circle cx="7.973" cy="7.428" r=".45"/>
+   <circle cx="9.342" cy="8.072" r=".45"/>
+   <circle cx="8.206" cy="9.315" r=".45"/>
+   <circle cx="9.682" cy="9.475" r=".45"/>
+   <circle cx="9.688" cy="6.186" r=".45"/>
+   <circle cx="3.379" cy="6.296" r=".45"/>
+   <circle cx="2.871" cy="8.204" r=".45"/>
+   <circle cx="4.59" cy="8.719" r=".45"/>
+   <circle cx="3.181" cy="9.671" r=".45"/>
+   <circle cx="5.734" cy="7.315" r=".45"/>
+   <circle cx="6.707" cy="6.513" r=".45"/>
+   <circle cx="5.73" cy="9.67" r=".45"/>
+   <circle cx="6.535" cy="8.373" r=".45"/>
+   <circle cx="4.37" cy="7.154" r=".45"/>
+   <circle cx=".622" cy="7.25" r=".45"/>
+   <circle cx=".831" cy="5.679" r=".45"/>
+   <circle cx="1.257" cy="8.519" r=".45"/>
+   <circle cx="1.989" cy="6.877" r=".45"/>
+   <circle cx=".374" cy="3.181" r=".45"/>
+   <circle cx="1.166" cy="1.664" r=".45"/>
+   <circle cx="1.151" cy=".093" r=".45"/>
+   <circle cx="1.151" cy="10.093" r=".45"/>
+   <circle cx="1.302" cy="4.451" r=".45"/>
+   <circle cx="3.047" cy="3.763" r=".45"/>
+  </pattern>
+  <pattern id="df" xlink:href="#ck" patternTransform="matrix(.49007 .20135 -.24454 .59519 85.048 913.5)"/>
+  <pattern id="ck" width="10" height="10" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <circle cx="2.567" cy=".81" r=".45"/>
+   <circle cx="3.048" cy="2.33" r=".45"/>
+   <circle cx="4.418" cy="2.415" r=".45"/>
+   <circle cx="1.844" cy="3.029" r=".45"/>
+   <circle cx="6.08" cy="1.363" r=".45"/>
+   <circle cx="5.819" cy="4.413" r=".45"/>
+   <circle cx="4.305" cy="4.048" r=".45"/>
+   <circle cx="5.541" cy="3.045" r=".45"/>
+   <circle cx="4.785" cy="5.527" r=".45"/>
+   <circle cx="2.667" cy="5.184" r=".45"/>
+   <circle cx="7.965" cy="1.448" r=".45"/>
+   <circle cx="7.047" cy="5.049" r=".45"/>
+   <circle cx="4.34" cy=".895" r=".45"/>
+   <circle cx="7.125" cy=".34" r=".45"/>
+   <circle cx="9.553" cy="1.049" r=".45"/>
+   <circle cx="7.006" cy="2.689" r=".45"/>
+   <circle cx="8.909" cy="2.689" r=".45"/>
+   <circle cx="9.315" cy="4.407" r=".45"/>
+   <circle cx="7.82" cy="3.87" r=".45"/>
+   <circle cx="8.27" cy="5.948" r=".45"/>
+   <circle cx="7.973" cy="7.428" r=".45"/>
+   <circle cx="9.342" cy="8.072" r=".45"/>
+   <circle cx="8.206" cy="9.315" r=".45"/>
+   <circle cx="9.682" cy="9.475" r=".45"/>
+   <circle cx="9.688" cy="6.186" r=".45"/>
+   <circle cx="3.379" cy="6.296" r=".45"/>
+   <circle cx="2.871" cy="8.204" r=".45"/>
+   <circle cx="4.59" cy="8.719" r=".45"/>
+   <circle cx="3.181" cy="9.671" r=".45"/>
+   <circle cx="5.734" cy="7.315" r=".45"/>
+   <circle cx="6.707" cy="6.513" r=".45"/>
+   <circle cx="5.73" cy="9.67" r=".45"/>
+   <circle cx="6.535" cy="8.373" r=".45"/>
+   <circle cx="4.37" cy="7.154" r=".45"/>
+   <circle cx=".622" cy="7.25" r=".45"/>
+   <circle cx=".831" cy="5.679" r=".45"/>
+   <circle cx="1.257" cy="8.519" r=".45"/>
+   <circle cx="1.989" cy="6.877" r=".45"/>
+   <circle cx=".374" cy="3.181" r=".45"/>
+   <circle cx="1.166" cy="1.664" r=".45"/>
+   <circle cx="1.151" cy=".093" r=".45"/>
+   <circle cx="1.151" cy="10.093" r=".45"/>
+   <circle cx="1.302" cy="4.451" r=".45"/>
+   <circle cx="3.047" cy="3.763" r=".45"/>
+  </pattern>
+  <pattern id="dm" xlink:href="#cr" patternTransform="matrix(.49007 .20135 -.24454 .59519 27.469 932.57)"/>
+  <pattern id="cr" width="10" height="10" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <circle cx="2.567" cy=".81" r=".45"/>
+   <circle cx="3.048" cy="2.33" r=".45"/>
+   <circle cx="4.418" cy="2.415" r=".45"/>
+   <circle cx="1.844" cy="3.029" r=".45"/>
+   <circle cx="6.08" cy="1.363" r=".45"/>
+   <circle cx="5.819" cy="4.413" r=".45"/>
+   <circle cx="4.305" cy="4.048" r=".45"/>
+   <circle cx="5.541" cy="3.045" r=".45"/>
+   <circle cx="4.785" cy="5.527" r=".45"/>
+   <circle cx="2.667" cy="5.184" r=".45"/>
+   <circle cx="7.965" cy="1.448" r=".45"/>
+   <circle cx="7.047" cy="5.049" r=".45"/>
+   <circle cx="4.34" cy=".895" r=".45"/>
+   <circle cx="7.125" cy=".34" r=".45"/>
+   <circle cx="9.553" cy="1.049" r=".45"/>
+   <circle cx="7.006" cy="2.689" r=".45"/>
+   <circle cx="8.909" cy="2.689" r=".45"/>
+   <circle cx="9.315" cy="4.407" r=".45"/>
+   <circle cx="7.82" cy="3.87" r=".45"/>
+   <circle cx="8.27" cy="5.948" r=".45"/>
+   <circle cx="7.973" cy="7.428" r=".45"/>
+   <circle cx="9.342" cy="8.072" r=".45"/>
+   <circle cx="8.206" cy="9.315" r=".45"/>
+   <circle cx="9.682" cy="9.475" r=".45"/>
+   <circle cx="9.688" cy="6.186" r=".45"/>
+   <circle cx="3.379" cy="6.296" r=".45"/>
+   <circle cx="2.871" cy="8.204" r=".45"/>
+   <circle cx="4.59" cy="8.719" r=".45"/>
+   <circle cx="3.181" cy="9.671" r=".45"/>
+   <circle cx="5.734" cy="7.315" r=".45"/>
+   <circle cx="6.707" cy="6.513" r=".45"/>
+   <circle cx="5.73" cy="9.67" r=".45"/>
+   <circle cx="6.535" cy="8.373" r=".45"/>
+   <circle cx="4.37" cy="7.154" r=".45"/>
+   <circle cx=".622" cy="7.25" r=".45"/>
+   <circle cx=".831" cy="5.679" r=".45"/>
+   <circle cx="1.257" cy="8.519" r=".45"/>
+   <circle cx="1.989" cy="6.877" r=".45"/>
+   <circle cx=".374" cy="3.181" r=".45"/>
+   <circle cx="1.166" cy="1.664" r=".45"/>
+   <circle cx="1.151" cy=".093" r=".45"/>
+   <circle cx="1.151" cy="10.093" r=".45"/>
+   <circle cx="1.302" cy="4.451" r=".45"/>
+   <circle cx="3.047" cy="3.763" r=".45"/>
+  </pattern>
+  <pattern id="db" xlink:href="#cp" patternTransform="matrix(.49007 .20135 -.24454 .59519 49.945 929.66)"/>
+  <pattern id="cp" width="10" height="10" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <circle cx="2.567" cy=".81" r=".45"/>
+   <circle cx="3.048" cy="2.33" r=".45"/>
+   <circle cx="4.418" cy="2.415" r=".45"/>
+   <circle cx="1.844" cy="3.029" r=".45"/>
+   <circle cx="6.08" cy="1.363" r=".45"/>
+   <circle cx="5.819" cy="4.413" r=".45"/>
+   <circle cx="4.305" cy="4.048" r=".45"/>
+   <circle cx="5.541" cy="3.045" r=".45"/>
+   <circle cx="4.785" cy="5.527" r=".45"/>
+   <circle cx="2.667" cy="5.184" r=".45"/>
+   <circle cx="7.965" cy="1.448" r=".45"/>
+   <circle cx="7.047" cy="5.049" r=".45"/>
+   <circle cx="4.34" cy=".895" r=".45"/>
+   <circle cx="7.125" cy=".34" r=".45"/>
+   <circle cx="9.553" cy="1.049" r=".45"/>
+   <circle cx="7.006" cy="2.689" r=".45"/>
+   <circle cx="8.909" cy="2.689" r=".45"/>
+   <circle cx="9.315" cy="4.407" r=".45"/>
+   <circle cx="7.82" cy="3.87" r=".45"/>
+   <circle cx="8.27" cy="5.948" r=".45"/>
+   <circle cx="7.973" cy="7.428" r=".45"/>
+   <circle cx="9.342" cy="8.072" r=".45"/>
+   <circle cx="8.206" cy="9.315" r=".45"/>
+   <circle cx="9.682" cy="9.475" r=".45"/>
+   <circle cx="9.688" cy="6.186" r=".45"/>
+   <circle cx="3.379" cy="6.296" r=".45"/>
+   <circle cx="2.871" cy="8.204" r=".45"/>
+   <circle cx="4.59" cy="8.719" r=".45"/>
+   <circle cx="3.181" cy="9.671" r=".45"/>
+   <circle cx="5.734" cy="7.315" r=".45"/>
+   <circle cx="6.707" cy="6.513" r=".45"/>
+   <circle cx="5.73" cy="9.67" r=".45"/>
+   <circle cx="6.535" cy="8.373" r=".45"/>
+   <circle cx="4.37" cy="7.154" r=".45"/>
+   <circle cx=".622" cy="7.25" r=".45"/>
+   <circle cx=".831" cy="5.679" r=".45"/>
+   <circle cx="1.257" cy="8.519" r=".45"/>
+   <circle cx="1.989" cy="6.877" r=".45"/>
+   <circle cx=".374" cy="3.181" r=".45"/>
+   <circle cx="1.166" cy="1.664" r=".45"/>
+   <circle cx="1.151" cy=".093" r=".45"/>
+   <circle cx="1.151" cy="10.093" r=".45"/>
+   <circle cx="1.302" cy="4.451" r=".45"/>
+   <circle cx="3.047" cy="3.763" r=".45"/>
+  </pattern>
+  <pattern id="dd" xlink:href="#cn" patternTransform="matrix(.49007 .20135 -.24454 .59519 73.684 931.94)"/>
+  <pattern id="cn" width="10" height="10" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <circle cx="2.567" cy=".81" r=".45"/>
+   <circle cx="3.048" cy="2.33" r=".45"/>
+   <circle cx="4.418" cy="2.415" r=".45"/>
+   <circle cx="1.844" cy="3.029" r=".45"/>
+   <circle cx="6.08" cy="1.363" r=".45"/>
+   <circle cx="5.819" cy="4.413" r=".45"/>
+   <circle cx="4.305" cy="4.048" r=".45"/>
+   <circle cx="5.541" cy="3.045" r=".45"/>
+   <circle cx="4.785" cy="5.527" r=".45"/>
+   <circle cx="2.667" cy="5.184" r=".45"/>
+   <circle cx="7.965" cy="1.448" r=".45"/>
+   <circle cx="7.047" cy="5.049" r=".45"/>
+   <circle cx="4.34" cy=".895" r=".45"/>
+   <circle cx="7.125" cy=".34" r=".45"/>
+   <circle cx="9.553" cy="1.049" r=".45"/>
+   <circle cx="7.006" cy="2.689" r=".45"/>
+   <circle cx="8.909" cy="2.689" r=".45"/>
+   <circle cx="9.315" cy="4.407" r=".45"/>
+   <circle cx="7.82" cy="3.87" r=".45"/>
+   <circle cx="8.27" cy="5.948" r=".45"/>
+   <circle cx="7.973" cy="7.428" r=".45"/>
+   <circle cx="9.342" cy="8.072" r=".45"/>
+   <circle cx="8.206" cy="9.315" r=".45"/>
+   <circle cx="9.682" cy="9.475" r=".45"/>
+   <circle cx="9.688" cy="6.186" r=".45"/>
+   <circle cx="3.379" cy="6.296" r=".45"/>
+   <circle cx="2.871" cy="8.204" r=".45"/>
+   <circle cx="4.59" cy="8.719" r=".45"/>
+   <circle cx="3.181" cy="9.671" r=".45"/>
+   <circle cx="5.734" cy="7.315" r=".45"/>
+   <circle cx="6.707" cy="6.513" r=".45"/>
+   <circle cx="5.73" cy="9.67" r=".45"/>
+   <circle cx="6.535" cy="8.373" r=".45"/>
+   <circle cx="4.37" cy="7.154" r=".45"/>
+   <circle cx=".622" cy="7.25" r=".45"/>
+   <circle cx=".831" cy="5.679" r=".45"/>
+   <circle cx="1.257" cy="8.519" r=".45"/>
+   <circle cx="1.989" cy="6.877" r=".45"/>
+   <circle cx=".374" cy="3.181" r=".45"/>
+   <circle cx="1.166" cy="1.664" r=".45"/>
+   <circle cx="1.151" cy=".093" r=".45"/>
+   <circle cx="1.151" cy="10.093" r=".45"/>
+   <circle cx="1.302" cy="4.451" r=".45"/>
+   <circle cx="3.047" cy="3.763" r=".45"/>
+  </pattern>
+  <pattern id="dc" xlink:href="#cu" patternTransform="matrix(.49007 .20135 -.24454 .59519 10.676 940.65)"/>
+  <pattern id="cu" width="10" height="10" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <circle cx="2.567" cy=".81" r=".45"/>
+   <circle cx="3.048" cy="2.33" r=".45"/>
+   <circle cx="4.418" cy="2.415" r=".45"/>
+   <circle cx="1.844" cy="3.029" r=".45"/>
+   <circle cx="6.08" cy="1.363" r=".45"/>
+   <circle cx="5.819" cy="4.413" r=".45"/>
+   <circle cx="4.305" cy="4.048" r=".45"/>
+   <circle cx="5.541" cy="3.045" r=".45"/>
+   <circle cx="4.785" cy="5.527" r=".45"/>
+   <circle cx="2.667" cy="5.184" r=".45"/>
+   <circle cx="7.965" cy="1.448" r=".45"/>
+   <circle cx="7.047" cy="5.049" r=".45"/>
+   <circle cx="4.34" cy=".895" r=".45"/>
+   <circle cx="7.125" cy=".34" r=".45"/>
+   <circle cx="9.553" cy="1.049" r=".45"/>
+   <circle cx="7.006" cy="2.689" r=".45"/>
+   <circle cx="8.909" cy="2.689" r=".45"/>
+   <circle cx="9.315" cy="4.407" r=".45"/>
+   <circle cx="7.82" cy="3.87" r=".45"/>
+   <circle cx="8.27" cy="5.948" r=".45"/>
+   <circle cx="7.973" cy="7.428" r=".45"/>
+   <circle cx="9.342" cy="8.072" r=".45"/>
+   <circle cx="8.206" cy="9.315" r=".45"/>
+   <circle cx="9.682" cy="9.475" r=".45"/>
+   <circle cx="9.688" cy="6.186" r=".45"/>
+   <circle cx="3.379" cy="6.296" r=".45"/>
+   <circle cx="2.871" cy="8.204" r=".45"/>
+   <circle cx="4.59" cy="8.719" r=".45"/>
+   <circle cx="3.181" cy="9.671" r=".45"/>
+   <circle cx="5.734" cy="7.315" r=".45"/>
+   <circle cx="6.707" cy="6.513" r=".45"/>
+   <circle cx="5.73" cy="9.67" r=".45"/>
+   <circle cx="6.535" cy="8.373" r=".45"/>
+   <circle cx="4.37" cy="7.154" r=".45"/>
+   <circle cx=".622" cy="7.25" r=".45"/>
+   <circle cx=".831" cy="5.679" r=".45"/>
+   <circle cx="1.257" cy="8.519" r=".45"/>
+   <circle cx="1.989" cy="6.877" r=".45"/>
+   <circle cx=".374" cy="3.181" r=".45"/>
+   <circle cx="1.166" cy="1.664" r=".45"/>
+   <circle cx="1.151" cy=".093" r=".45"/>
+   <circle cx="1.151" cy="10.093" r=".45"/>
+   <circle cx="1.302" cy="4.451" r=".45"/>
+   <circle cx="3.047" cy="3.763" r=".45"/>
+  </pattern>
+  <pattern id="dg" xlink:href="#cs" patternTransform="matrix(.49007 .20135 -.24454 .59519 37.824 945.95)"/>
+  <pattern id="cs" width="10" height="10" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <circle cx="2.567" cy=".81" r=".45"/>
+   <circle cx="3.048" cy="2.33" r=".45"/>
+   <circle cx="4.418" cy="2.415" r=".45"/>
+   <circle cx="1.844" cy="3.029" r=".45"/>
+   <circle cx="6.08" cy="1.363" r=".45"/>
+   <circle cx="5.819" cy="4.413" r=".45"/>
+   <circle cx="4.305" cy="4.048" r=".45"/>
+   <circle cx="5.541" cy="3.045" r=".45"/>
+   <circle cx="4.785" cy="5.527" r=".45"/>
+   <circle cx="2.667" cy="5.184" r=".45"/>
+   <circle cx="7.965" cy="1.448" r=".45"/>
+   <circle cx="7.047" cy="5.049" r=".45"/>
+   <circle cx="4.34" cy=".895" r=".45"/>
+   <circle cx="7.125" cy=".34" r=".45"/>
+   <circle cx="9.553" cy="1.049" r=".45"/>
+   <circle cx="7.006" cy="2.689" r=".45"/>
+   <circle cx="8.909" cy="2.689" r=".45"/>
+   <circle cx="9.315" cy="4.407" r=".45"/>
+   <circle cx="7.82" cy="3.87" r=".45"/>
+   <circle cx="8.27" cy="5.948" r=".45"/>
+   <circle cx="7.973" cy="7.428" r=".45"/>
+   <circle cx="9.342" cy="8.072" r=".45"/>
+   <circle cx="8.206" cy="9.315" r=".45"/>
+   <circle cx="9.682" cy="9.475" r=".45"/>
+   <circle cx="9.688" cy="6.186" r=".45"/>
+   <circle cx="3.379" cy="6.296" r=".45"/>
+   <circle cx="2.871" cy="8.204" r=".45"/>
+   <circle cx="4.59" cy="8.719" r=".45"/>
+   <circle cx="3.181" cy="9.671" r=".45"/>
+   <circle cx="5.734" cy="7.315" r=".45"/>
+   <circle cx="6.707" cy="6.513" r=".45"/>
+   <circle cx="5.73" cy="9.67" r=".45"/>
+   <circle cx="6.535" cy="8.373" r=".45"/>
+   <circle cx="4.37" cy="7.154" r=".45"/>
+   <circle cx=".622" cy="7.25" r=".45"/>
+   <circle cx=".831" cy="5.679" r=".45"/>
+   <circle cx="1.257" cy="8.519" r=".45"/>
+   <circle cx="1.989" cy="6.877" r=".45"/>
+   <circle cx=".374" cy="3.181" r=".45"/>
+   <circle cx="1.166" cy="1.664" r=".45"/>
+   <circle cx="1.151" cy=".093" r=".45"/>
+   <circle cx="1.151" cy="10.093" r=".45"/>
+   <circle cx="1.302" cy="4.451" r=".45"/>
+   <circle cx="3.047" cy="3.763" r=".45"/>
+  </pattern>
+  <pattern id="dh" xlink:href="#co" patternTransform="matrix(.49007 .20135 -.24454 .59519 57.9 943.55)"/>
+  <pattern id="co" width="10" height="10" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <circle cx="2.567" cy=".81" r=".45"/>
+   <circle cx="3.048" cy="2.33" r=".45"/>
+   <circle cx="4.418" cy="2.415" r=".45"/>
+   <circle cx="1.844" cy="3.029" r=".45"/>
+   <circle cx="6.08" cy="1.363" r=".45"/>
+   <circle cx="5.819" cy="4.413" r=".45"/>
+   <circle cx="4.305" cy="4.048" r=".45"/>
+   <circle cx="5.541" cy="3.045" r=".45"/>
+   <circle cx="4.785" cy="5.527" r=".45"/>
+   <circle cx="2.667" cy="5.184" r=".45"/>
+   <circle cx="7.965" cy="1.448" r=".45"/>
+   <circle cx="7.047" cy="5.049" r=".45"/>
+   <circle cx="4.34" cy=".895" r=".45"/>
+   <circle cx="7.125" cy=".34" r=".45"/>
+   <circle cx="9.553" cy="1.049" r=".45"/>
+   <circle cx="7.006" cy="2.689" r=".45"/>
+   <circle cx="8.909" cy="2.689" r=".45"/>
+   <circle cx="9.315" cy="4.407" r=".45"/>
+   <circle cx="7.82" cy="3.87" r=".45"/>
+   <circle cx="8.27" cy="5.948" r=".45"/>
+   <circle cx="7.973" cy="7.428" r=".45"/>
+   <circle cx="9.342" cy="8.072" r=".45"/>
+   <circle cx="8.206" cy="9.315" r=".45"/>
+   <circle cx="9.682" cy="9.475" r=".45"/>
+   <circle cx="9.688" cy="6.186" r=".45"/>
+   <circle cx="3.379" cy="6.296" r=".45"/>
+   <circle cx="2.871" cy="8.204" r=".45"/>
+   <circle cx="4.59" cy="8.719" r=".45"/>
+   <circle cx="3.181" cy="9.671" r=".45"/>
+   <circle cx="5.734" cy="7.315" r=".45"/>
+   <circle cx="6.707" cy="6.513" r=".45"/>
+   <circle cx="5.73" cy="9.67" r=".45"/>
+   <circle cx="6.535" cy="8.373" r=".45"/>
+   <circle cx="4.37" cy="7.154" r=".45"/>
+   <circle cx=".622" cy="7.25" r=".45"/>
+   <circle cx=".831" cy="5.679" r=".45"/>
+   <circle cx="1.257" cy="8.519" r=".45"/>
+   <circle cx="1.989" cy="6.877" r=".45"/>
+   <circle cx=".374" cy="3.181" r=".45"/>
+   <circle cx="1.166" cy="1.664" r=".45"/>
+   <circle cx="1.151" cy=".093" r=".45"/>
+   <circle cx="1.151" cy="10.093" r=".45"/>
+   <circle cx="1.302" cy="4.451" r=".45"/>
+   <circle cx="3.047" cy="3.763" r=".45"/>
+  </pattern>
+  <pattern id="de" xlink:href="#ct" patternTransform="matrix(.49007 .20135 -.24454 .59519 78.103 947.97)"/>
+  <pattern id="ct" width="10" height="10" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <circle cx="2.567" cy=".81" r=".45"/>
+   <circle cx="3.048" cy="2.33" r=".45"/>
+   <circle cx="4.418" cy="2.415" r=".45"/>
+   <circle cx="1.844" cy="3.029" r=".45"/>
+   <circle cx="6.08" cy="1.363" r=".45"/>
+   <circle cx="5.819" cy="4.413" r=".45"/>
+   <circle cx="4.305" cy="4.048" r=".45"/>
+   <circle cx="5.541" cy="3.045" r=".45"/>
+   <circle cx="4.785" cy="5.527" r=".45"/>
+   <circle cx="2.667" cy="5.184" r=".45"/>
+   <circle cx="7.965" cy="1.448" r=".45"/>
+   <circle cx="7.047" cy="5.049" r=".45"/>
+   <circle cx="4.34" cy=".895" r=".45"/>
+   <circle cx="7.125" cy=".34" r=".45"/>
+   <circle cx="9.553" cy="1.049" r=".45"/>
+   <circle cx="7.006" cy="2.689" r=".45"/>
+   <circle cx="8.909" cy="2.689" r=".45"/>
+   <circle cx="9.315" cy="4.407" r=".45"/>
+   <circle cx="7.82" cy="3.87" r=".45"/>
+   <circle cx="8.27" cy="5.948" r=".45"/>
+   <circle cx="7.973" cy="7.428" r=".45"/>
+   <circle cx="9.342" cy="8.072" r=".45"/>
+   <circle cx="8.206" cy="9.315" r=".45"/>
+   <circle cx="9.682" cy="9.475" r=".45"/>
+   <circle cx="9.688" cy="6.186" r=".45"/>
+   <circle cx="3.379" cy="6.296" r=".45"/>
+   <circle cx="2.871" cy="8.204" r=".45"/>
+   <circle cx="4.59" cy="8.719" r=".45"/>
+   <circle cx="3.181" cy="9.671" r=".45"/>
+   <circle cx="5.734" cy="7.315" r=".45"/>
+   <circle cx="6.707" cy="6.513" r=".45"/>
+   <circle cx="5.73" cy="9.67" r=".45"/>
+   <circle cx="6.535" cy="8.373" r=".45"/>
+   <circle cx="4.37" cy="7.154" r=".45"/>
+   <circle cx=".622" cy="7.25" r=".45"/>
+   <circle cx=".831" cy="5.679" r=".45"/>
+   <circle cx="1.257" cy="8.519" r=".45"/>
+   <circle cx="1.989" cy="6.877" r=".45"/>
+   <circle cx=".374" cy="3.181" r=".45"/>
+   <circle cx="1.166" cy="1.664" r=".45"/>
+   <circle cx="1.151" cy=".093" r=".45"/>
+   <circle cx="1.151" cy="10.093" r=".45"/>
+   <circle cx="1.302" cy="4.451" r=".45"/>
+   <circle cx="3.047" cy="3.763" r=".45"/>
+  </pattern>
+  <pattern id="dk" xlink:href="#cm" patternTransform="matrix(.49007 .20135 -.24454 .59519 88.71 928.9)"/>
+  <pattern id="cm" width="10" height="10" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <circle cx="2.567" cy=".81" r=".45"/>
+   <circle cx="3.048" cy="2.33" r=".45"/>
+   <circle cx="4.418" cy="2.415" r=".45"/>
+   <circle cx="1.844" cy="3.029" r=".45"/>
+   <circle cx="6.08" cy="1.363" r=".45"/>
+   <circle cx="5.819" cy="4.413" r=".45"/>
+   <circle cx="4.305" cy="4.048" r=".45"/>
+   <circle cx="5.541" cy="3.045" r=".45"/>
+   <circle cx="4.785" cy="5.527" r=".45"/>
+   <circle cx="2.667" cy="5.184" r=".45"/>
+   <circle cx="7.965" cy="1.448" r=".45"/>
+   <circle cx="7.047" cy="5.049" r=".45"/>
+   <circle cx="4.34" cy=".895" r=".45"/>
+   <circle cx="7.125" cy=".34" r=".45"/>
+   <circle cx="9.553" cy="1.049" r=".45"/>
+   <circle cx="7.006" cy="2.689" r=".45"/>
+   <circle cx="8.909" cy="2.689" r=".45"/>
+   <circle cx="9.315" cy="4.407" r=".45"/>
+   <circle cx="7.82" cy="3.87" r=".45"/>
+   <circle cx="8.27" cy="5.948" r=".45"/>
+   <circle cx="7.973" cy="7.428" r=".45"/>
+   <circle cx="9.342" cy="8.072" r=".45"/>
+   <circle cx="8.206" cy="9.315" r=".45"/>
+   <circle cx="9.682" cy="9.475" r=".45"/>
+   <circle cx="9.688" cy="6.186" r=".45"/>
+   <circle cx="3.379" cy="6.296" r=".45"/>
+   <circle cx="2.871" cy="8.204" r=".45"/>
+   <circle cx="4.59" cy="8.719" r=".45"/>
+   <circle cx="3.181" cy="9.671" r=".45"/>
+   <circle cx="5.734" cy="7.315" r=".45"/>
+   <circle cx="6.707" cy="6.513" r=".45"/>
+   <circle cx="5.73" cy="9.67" r=".45"/>
+   <circle cx="6.535" cy="8.373" r=".45"/>
+   <circle cx="4.37" cy="7.154" r=".45"/>
+   <circle cx=".622" cy="7.25" r=".45"/>
+   <circle cx=".831" cy="5.679" r=".45"/>
+   <circle cx="1.257" cy="8.519" r=".45"/>
+   <circle cx="1.989" cy="6.877" r=".45"/>
+   <circle cx=".374" cy="3.181" r=".45"/>
+   <circle cx="1.166" cy="1.664" r=".45"/>
+   <circle cx="1.151" cy=".093" r=".45"/>
+   <circle cx="1.151" cy="10.093" r=".45"/>
+   <circle cx="1.302" cy="4.451" r=".45"/>
+   <circle cx="3.047" cy="3.763" r=".45"/>
+  </pattern>
+  <pattern id="di" xlink:href="#cl" patternTransform="matrix(.49007 .20135 -.24454 .59519 7.1402 919.18)"/>
+  <pattern id="cl" width="10" height="10" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <circle cx="2.567" cy=".81" r=".45"/>
+   <circle cx="3.048" cy="2.33" r=".45"/>
+   <circle cx="4.418" cy="2.415" r=".45"/>
+   <circle cx="1.844" cy="3.029" r=".45"/>
+   <circle cx="6.08" cy="1.363" r=".45"/>
+   <circle cx="5.819" cy="4.413" r=".45"/>
+   <circle cx="4.305" cy="4.048" r=".45"/>
+   <circle cx="5.541" cy="3.045" r=".45"/>
+   <circle cx="4.785" cy="5.527" r=".45"/>
+   <circle cx="2.667" cy="5.184" r=".45"/>
+   <circle cx="7.965" cy="1.448" r=".45"/>
+   <circle cx="7.047" cy="5.049" r=".45"/>
+   <circle cx="4.34" cy=".895" r=".45"/>
+   <circle cx="7.125" cy=".34" r=".45"/>
+   <circle cx="9.553" cy="1.049" r=".45"/>
+   <circle cx="7.006" cy="2.689" r=".45"/>
+   <circle cx="8.909" cy="2.689" r=".45"/>
+   <circle cx="9.315" cy="4.407" r=".45"/>
+   <circle cx="7.82" cy="3.87" r=".45"/>
+   <circle cx="8.27" cy="5.948" r=".45"/>
+   <circle cx="7.973" cy="7.428" r=".45"/>
+   <circle cx="9.342" cy="8.072" r=".45"/>
+   <circle cx="8.206" cy="9.315" r=".45"/>
+   <circle cx="9.682" cy="9.475" r=".45"/>
+   <circle cx="9.688" cy="6.186" r=".45"/>
+   <circle cx="3.379" cy="6.296" r=".45"/>
+   <circle cx="2.871" cy="8.204" r=".45"/>
+   <circle cx="4.59" cy="8.719" r=".45"/>
+   <circle cx="3.181" cy="9.671" r=".45"/>
+   <circle cx="5.734" cy="7.315" r=".45"/>
+   <circle cx="6.707" cy="6.513" r=".45"/>
+   <circle cx="5.73" cy="9.67" r=".45"/>
+   <circle cx="6.535" cy="8.373" r=".45"/>
+   <circle cx="4.37" cy="7.154" r=".45"/>
+   <circle cx=".622" cy="7.25" r=".45"/>
+   <circle cx=".831" cy="5.679" r=".45"/>
+   <circle cx="1.257" cy="8.519" r=".45"/>
+   <circle cx="1.989" cy="6.877" r=".45"/>
+   <circle cx=".374" cy="3.181" r=".45"/>
+   <circle cx="1.166" cy="1.664" r=".45"/>
+   <circle cx="1.151" cy=".093" r=".45"/>
+   <circle cx="1.151" cy="10.093" r=".45"/>
+   <circle cx="1.302" cy="4.451" r=".45"/>
+   <circle cx="3.047" cy="3.763" r=".45"/>
+  </pattern>
+  <pattern id="cz" xlink:href="#bl" patternTransform="matrix(1.439 0 0 1.0602 -9.9447 857.77)"/>
+  <pattern id="bl" width="10" height="10" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <circle cx="2.567" cy=".81" r=".45"/>
+   <circle cx="3.048" cy="2.33" r=".45"/>
+   <circle cx="4.418" cy="2.415" r=".45"/>
+   <circle cx="1.844" cy="3.029" r=".45"/>
+   <circle cx="6.08" cy="1.363" r=".45"/>
+   <circle cx="5.819" cy="4.413" r=".45"/>
+   <circle cx="4.305" cy="4.048" r=".45"/>
+   <circle cx="5.541" cy="3.045" r=".45"/>
+   <circle cx="4.785" cy="5.527" r=".45"/>
+   <circle cx="2.667" cy="5.184" r=".45"/>
+   <circle cx="7.965" cy="1.448" r=".45"/>
+   <circle cx="7.047" cy="5.049" r=".45"/>
+   <circle cx="4.34" cy=".895" r=".45"/>
+   <circle cx="7.125" cy=".34" r=".45"/>
+   <circle cx="9.553" cy="1.049" r=".45"/>
+   <circle cx="7.006" cy="2.689" r=".45"/>
+   <circle cx="8.909" cy="2.689" r=".45"/>
+   <circle cx="9.315" cy="4.407" r=".45"/>
+   <circle cx="7.82" cy="3.87" r=".45"/>
+   <circle cx="8.27" cy="5.948" r=".45"/>
+   <circle cx="7.973" cy="7.428" r=".45"/>
+   <circle cx="9.342" cy="8.072" r=".45"/>
+   <circle cx="8.206" cy="9.315" r=".45"/>
+   <circle cx="9.682" cy="9.475" r=".45"/>
+   <circle cx="9.688" cy="6.186" r=".45"/>
+   <circle cx="3.379" cy="6.296" r=".45"/>
+   <circle cx="2.871" cy="8.204" r=".45"/>
+   <circle cx="4.59" cy="8.719" r=".45"/>
+   <circle cx="3.181" cy="9.671" r=".45"/>
+   <circle cx="5.734" cy="7.315" r=".45"/>
+   <circle cx="6.707" cy="6.513" r=".45"/>
+   <circle cx="5.73" cy="9.67" r=".45"/>
+   <circle cx="6.535" cy="8.373" r=".45"/>
+   <circle cx="4.37" cy="7.154" r=".45"/>
+   <circle cx=".622" cy="7.25" r=".45"/>
+   <circle cx=".831" cy="5.679" r=".45"/>
+   <circle cx="1.257" cy="8.519" r=".45"/>
+   <circle cx="1.989" cy="6.877" r=".45"/>
+   <circle cx=".374" cy="3.181" r=".45"/>
+   <circle cx="1.166" cy="1.664" r=".45"/>
+   <circle cx="1.151" cy=".093" r=".45"/>
+   <circle cx="1.151" cy="10.093" r=".45"/>
+   <circle cx="1.302" cy="4.451" r=".45"/>
+   <circle cx="3.047" cy="3.763" r=".45"/>
+  </pattern>
+  <pattern id="dn" xlink:href="#bl" patternTransform="matrix(1.4071 0 0 1.6355 -191.47 864.14)"/>
+  <linearGradient id="cy" x1="137.96" x2="136.93" y1="1020.9" y2="1038.8" gradientTransform="translate(-92.614 -138.49)" gradientUnits="userSpaceOnUse" xlink:href="#bm"/>
+  <linearGradient id="bm">
+   <stop stop-color="#d7d7d7" stop-opacity=".70046" offset="0"/>
+   <stop stop-color="#8c969f" stop-opacity=".72811" offset="1"/>
+  </linearGradient>
+  <linearGradient id="cx" x1="166.59" x2="67.383" y1="1080.8" y2="1072.4" gradientTransform="translate(-71.354 -158.11)" gradientUnits="userSpaceOnUse" xlink:href="#bm"/>
+  <linearGradient id="cw" x1="40.797" x2="61.89" y1="1057.8" y2="1097.2" gradientTransform="translate(-7.3401 -168.33)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#6c93ba" offset="0"/>
+   <stop stop-color="#8c969f" offset="1"/>
+  </linearGradient>
+  <radialGradient id="bw" cx="125.28" cy="1032.4" r="4.5841" gradientTransform="matrix(1 0 0 1.6171 -118 -657.89)" gradientUnits="userSpaceOnUse" xlink:href="#bk"/>
+  <radialGradient id="cc" cx="125.28" cy="1032.4" r="4.5841" gradientTransform="matrix(1 0 0 1.6171 -114.55 -636.23)" gradientUnits="userSpaceOnUse" xlink:href="#bk"/>
+  <radialGradient id="ca" cx="125.28" cy="1032.4" r="4.5841" gradientTransform="matrix(1 0 0 1.6171 -102.68 -660.73)" gradientUnits="userSpaceOnUse" xlink:href="#bk"/>
+  <radialGradient id="ce" cx="125.28" cy="1032.4" r="4.5841" gradientTransform="matrix(1 0 0 1.6171 -97.676 -644.23)" gradientUnits="userSpaceOnUse" xlink:href="#bk"/>
+  <radialGradient id="cg" cx="125.28" cy="1032.4" r="4.5841" gradientTransform="matrix(1 0 0 1.6171 -83.426 -657.98)" gradientUnits="userSpaceOnUse" xlink:href="#bk"/>
+  <radialGradient id="bx" cx="125.28" cy="1032.4" r="4.5841" gradientTransform="matrix(1 0 0 1.6171 -75.051 -647.1)" gradientUnits="userSpaceOnUse" xlink:href="#bk"/>
+  <radialGradient id="by" cx="125.28" cy="1032.4" r="4.5841" gradientTransform="matrix(1 0 0 1.6171 -61.926 -655.6)" gradientUnits="userSpaceOnUse" xlink:href="#bk"/>
+  <radialGradient id="ch" cx="125.28" cy="1032.4" r="4.5841" gradientTransform="matrix(1 0 0 1.6171 -39.801 -663.23)" gradientUnits="userSpaceOnUse" xlink:href="#bk"/>
+  <radialGradient id="cd" cx="125.28" cy="1032.4" r="4.5841" gradientTransform="matrix(1 0 0 1.6171 -36.176 -648.1)" gradientUnits="userSpaceOnUse" xlink:href="#bk"/>
+  <radialGradient id="cf" cx="125.28" cy="1032.4" r="4.5841" gradientTransform="matrix(1 0 0 1.6171 -51.301 -644.85)" gradientUnits="userSpaceOnUse" xlink:href="#bk"/>
+  <radialGradient id="cb" cx="125.28" cy="1032.4" r="4.5841" gradientTransform="matrix(1 0 0 1.6171 -66.926 -633.35)" gradientUnits="userSpaceOnUse" xlink:href="#bk"/>
+  <radialGradient id="bz" cx="125.28" cy="1032.4" r="4.5841" gradientTransform="matrix(1 0 0 1.6171 -87.176 -630.98)" gradientUnits="userSpaceOnUse" xlink:href="#bk"/>
+  <radialGradient id="ci" cx="125.28" cy="1032.4" r="4.5841" gradientTransform="matrix(1 0 0 1.6171 -46.801 -628.98)" gradientUnits="userSpaceOnUse" xlink:href="#bk"/>
+  <radialGradient id="do" cx="8.7744" cy="1007.6" r="5.0219" gradientTransform="matrix(1 0 0 1.5379 0 -542.02)" gradientUnits="userSpaceOnUse" xlink:href="#bj"/>
+  <radialGradient id="dp" cx="24.043" cy="1004.7" r="5.0219" gradientTransform="matrix(1 0 0 1.5379 0 -540.44)" gradientUnits="userSpaceOnUse" xlink:href="#bj"/>
+  <radialGradient id="dq" cx="43.246" cy="1007.3" r="5.0219" gradientTransform="matrix(1 0 0 1.5379 0 -541.8)" gradientUnits="userSpaceOnUse" xlink:href="#bj"/>
+  <radialGradient id="dr" cx="64.585" cy="1009.7" r="5.0219" gradientTransform="matrix(1 0 0 1.5379 0 -543.09)" gradientUnits="userSpaceOnUse" xlink:href="#bj"/>
+  <radialGradient id="bn" cx="86.682" cy="1002" r="5.0219" gradientTransform="matrix(1 0 0 1.5379 0 -538.95)" gradientUnits="userSpaceOnUse" xlink:href="#bj"/>
+  <radialGradient id="bo" cx="12.31" cy="1029.1" r="5.0219" gradientTransform="matrix(1 0 0 1.5379 0 -553.57)" gradientUnits="userSpaceOnUse" xlink:href="#bj"/>
+  <radialGradient id="bp" cx="29.104" cy="1021" r="5.0219" gradientTransform="matrix(1 0 0 1.5379 0 -549.22)" gradientUnits="userSpaceOnUse" xlink:href="#bj"/>
+  <radialGradient id="bq" cx="39.458" cy="1034.4" r="5.0219" gradientTransform="matrix(1 0 0 1.5379 0 -556.42)" gradientUnits="userSpaceOnUse" xlink:href="#bj"/>
+  <radialGradient id="br" cx="51.58" cy="1018.1" r="5.0219" gradientTransform="matrix(1 0 0 1.5379 0 -547.66)" gradientUnits="userSpaceOnUse" xlink:href="#bj"/>
+  <radialGradient id="bs" cx="59.535" cy="1032" r="5.0219" gradientTransform="matrix(1 0 0 1.5379 0 -555.13)" gradientUnits="userSpaceOnUse" xlink:href="#bj"/>
+  <radialGradient id="bt" cx="75.318" cy="1020.4" r="5.0219" gradientTransform="matrix(1 0 0 1.5379 0 -548.87)" gradientUnits="userSpaceOnUse" xlink:href="#bj"/>
+  <radialGradient id="bu" cx="79.738" cy="1036.4" r="5.0219" gradientTransform="matrix(1 0 0 1.5379 0 -557.51)" gradientUnits="userSpaceOnUse" xlink:href="#bj"/>
+  <radialGradient id="bv" cx="90.344" cy="1017.4" r="5.0219" gradientTransform="matrix(1 0 0 1.5379 0 -547.25)" gradientUnits="userSpaceOnUse" xlink:href="#bj"/>
+ </defs>
+ <g transform="translate(-.20914 -940.24)">
+  <path d="m56.668 1010.5s-4.5862 3.7398-6.6798 5.958c-0.95293 1.0098-2.1036 2.9821-2.397 4.3391-0.44905 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8284 0.0673-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.0503-1.6029 0.46806-2.353 0.60869-0.8807 1.8713-2.308 2.6194-3.4278 0.37631-0.5634 0.36011-1.1981 0.36011-1.1981z" fill="url(#bx)" fill-rule="evenodd"/>
+  <path d="m56.507 1010.5s-4.5862 3.7398-6.6798 5.9581c-0.95293 1.0097-2.1036 2.982-2.3971 4.339-0.44904 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7298 0.26001-0.5182 0.34419-1.8285 0.06727-3.0038-0.24302-1.0316-0.83678-1.9733-0.84725-1.9922 0 0-0.05031-1.6029 0.46806-2.353 0.6087-0.8807 1.8713-2.3079 2.6194-3.4278 0.3763-0.5633 0.3601-1.1981 0.3601-1.1981z" fill="url(#db)" fill-rule="evenodd" opacity=".348"/>
+  <path d="m17.168 1021.4s-4.5862 3.7398-6.6798 5.958c-0.95293 1.0098-2.1036 2.9821-2.397 4.3391-0.44905 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8284 0.0673-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.0503-1.6029 0.46806-2.353 0.60869-0.8807 1.8713-2.308 2.6194-3.4278 0.37631-0.5634 0.36011-1.1981 0.36011-1.1981z" fill="url(#cc)" fill-rule="evenodd"/>
+  <path d="m17.238 1021.5s-4.5862 3.7398-6.6798 5.9581c-0.95293 1.0097-2.1036 2.9821-2.3971 4.3391-0.44904 2.0767 0.82148 3.882 2.421 4.4075 1.8866 0.6198 3.255-1.2685 3.9883-2.7298 0.26001-0.5182 0.34419-1.8285 0.06727-3.0038-0.24302-1.0316-0.83678-1.9733-0.84725-1.9922 0 0-0.05031-1.6029 0.46806-2.3529 0.6087-0.8808 1.8713-2.308 2.6194-3.4279 0.3763-0.5633 0.3601-1.1981 0.3601-1.1981z" fill="url(#dc)" fill-rule="evenodd" opacity=".351"/>
+  <path d="m34.043 1013.4s-4.5862 3.7398-6.6798 5.958c-0.95293 1.0098-2.1036 2.9821-2.397 4.3391-0.44905 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8284 0.0673-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.0503-1.6029 0.46806-2.353 0.60869-0.8807 1.8713-2.308 2.6194-3.4278 0.37631-0.5634 0.36011-1.1981 0.36011-1.1981z" fill="url(#ce)" fill-rule="evenodd"/>
+  <path d="m34.031 1013.4s-4.5862 3.7398-6.6798 5.958c-0.95293 1.0098-2.1036 2.9821-2.3971 4.3391-0.44904 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8284 0.06727-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.05031-1.6029 0.46806-2.353 0.6087-0.8807 1.8713-2.308 2.6194-3.4278 0.3763-0.5634 0.3601-1.1981 0.3601-1.1981z" fill="url(#dm)" fill-rule="evenodd" opacity=".348"/>
+  <path d="m44.543 1026.7s-4.5862 3.7398-6.6798 5.958c-0.95293 1.0098-2.1036 2.9821-2.397 4.3391-0.44905 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8284 0.0673-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.0503-1.6029 0.46806-2.353 0.60869-0.8807 1.8713-2.308 2.6194-3.4278 0.37631-0.5634 0.36011-1.1981 0.36011-1.1981z" fill="url(#bz)" fill-rule="evenodd"/>
+  <path d="m44.385 1026.8s-4.5862 3.7398-6.6798 5.9581c-0.95293 1.0097-2.1036 2.9821-2.3971 4.3391-0.44904 2.0767 0.82148 3.882 2.421 4.4075 1.8866 0.6198 3.255-1.2685 3.9883-2.7298 0.26001-0.5182 0.34419-1.8285 0.06727-3.0038-0.24302-1.0316-0.83678-1.9733-0.84725-1.9922 0 0-0.05031-1.6029 0.46806-2.3529 0.6087-0.8808 1.8713-2.308 2.6194-3.4279 0.3763-0.5633 0.3601-1.1981 0.3601-1.1981z" fill="url(#dg)" fill-rule="evenodd" opacity=".361"/>
+  <path d="m64.793 1024.3s-4.5862 3.7398-6.6798 5.958c-0.95293 1.0098-2.1036 2.9821-2.397 4.3391-0.44905 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8284 0.0673-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.0503-1.6029 0.46806-2.353 0.60869-0.8807 1.8713-2.308 2.6194-3.4278 0.37631-0.5634 0.36011-1.1981 0.36011-1.1981z" fill="url(#cb)" fill-rule="evenodd"/>
+  <path d="m64.462 1024.4s-4.5862 3.7398-6.6798 5.9581c-0.95293 1.0097-2.1036 2.982-2.3971 4.339-0.44904 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7298 0.26001-0.5182 0.34419-1.8285 0.06727-3.0038-0.24302-1.0316-0.83678-1.9733-0.84725-1.9922 0 0-0.05031-1.6029 0.46806-2.353 0.6087-0.8807 1.8713-2.3079 2.6194-3.4278 0.3763-0.5633 0.3601-1.1981 0.3601-1.1981z" fill="url(#dh)" fill-rule="evenodd" opacity=".354"/>
+  <path d="m80.418 1012.8s-4.5862 3.7398-6.6798 5.958c-0.95293 1.0098-2.1036 2.9821-2.397 4.3391-0.44905 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8284 0.0673-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.0503-1.6029 0.46806-2.353 0.60869-0.8807 1.8713-2.308 2.6194-3.4278 0.37631-0.5634 0.36011-1.1981 0.36011-1.1981z" fill="url(#cf)" fill-rule="evenodd"/>
+  <path d="m80.246 1012.7s-4.5862 3.7398-6.6798 5.9581c-0.95293 1.0097-2.1036 2.9821-2.3971 4.3391-0.44904 2.0768 0.82148 3.882 2.421 4.4075 1.8866 0.6198 3.255-1.2684 3.9883-2.7298 0.26001-0.5182 0.34419-1.8285 0.06727-3.0038-0.24302-1.0316-0.83678-1.9733-0.84725-1.9921 0 0-0.05031-1.6029 0.46806-2.353 0.6087-0.8808 1.8713-2.308 2.6194-3.4278 0.3763-0.5634 0.3601-1.1982 0.3601-1.1982z" fill="url(#dd)" fill-rule="evenodd" opacity=".345"/>
+  <path d="m95.543 1009.5s-4.5862 3.7398-6.6798 5.958c-0.95293 1.0098-2.1036 2.9821-2.397 4.3391-0.44905 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8284 0.0673-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.0503-1.6029 0.46806-2.353 0.60869-0.8807 1.8713-2.308 2.6194-3.4278 0.37631-0.5634 0.36011-1.1981 0.36011-1.1981z" fill="url(#cd)" fill-rule="evenodd"/>
+  <path d="m95.272 1009.7s-4.5862 3.7397-6.6798 5.958c-0.95293 1.0098-2.1036 2.9821-2.3971 4.3391-0.44904 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8284 0.06727-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.05031-1.6029 0.46806-2.353 0.6087-0.8807 1.8713-2.308 2.6194-3.4278 0.3763-0.5634 0.3601-1.1981 0.3601-1.1981z" fill="url(#dk)" fill-rule="evenodd" opacity=".351"/>
+  <path d="m91.918 994.41s-4.5862 3.7398-6.6798 5.958c-0.95293 1.0098-2.1036 2.9821-2.397 4.3391-0.44905 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8284 0.0673-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.0503-1.6029 0.46806-2.353 0.60869-0.8807 1.8713-2.308 2.6194-3.4278 0.37631-0.5634 0.36011-1.1981 0.36011-1.1981z" fill="url(#ch)" fill-rule="evenodd"/>
+  <path d="m91.61 994.31s-4.5862 3.7398-6.6798 5.9581c-0.95293 1.0097-2.1036 2.9821-2.3971 4.3391-0.44904 2.0768 0.82148 3.8821 2.421 4.4075 1.8866 0.6198 3.255-1.2684 3.9883-2.7298 0.26001-0.5182 0.34419-1.8285 0.06727-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.05031-1.6029 0.46806-2.353 0.6087-0.88076 1.8713-2.308 2.6194-3.4278 0.3763-0.56336 0.3601-1.1981 0.3601-1.1981z" fill="url(#df)" fill-rule="evenodd" opacity=".351"/>
+  <path d="m69.793 1002s-4.5862 3.7398-6.6798 5.958c-0.95293 1.0098-2.1036 2.9821-2.397 4.3391-0.44905 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8284 0.0673-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.0503-1.6029 0.46806-2.353 0.60869-0.8807 1.8713-2.308 2.6194-3.4278 0.37631-0.5634 0.36011-1.1981 0.36011-1.1981z" fill="url(#by)" fill-rule="evenodd"/>
+  <path d="m69.513 1002s-4.5862 3.7398-6.6798 5.9581c-0.95293 1.0097-2.1036 2.9821-2.3971 4.3391-0.44904 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6197 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8285 0.06727-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.05031-1.6029 0.46806-2.353 0.6087-0.8807 1.8713-2.308 2.6194-3.4278 0.3763-0.5634 0.3601-1.1982 0.3601-1.1982z" fill="url(#dl)" fill-rule="evenodd" opacity=".345"/>
+  <path d="m48.293 999.66s-4.5862 3.7398-6.6798 5.958c-0.95293 1.0098-2.1036 2.9821-2.397 4.3391-0.44905 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8284 0.0673-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.0503-1.6029 0.46806-2.353 0.60869-0.8807 1.8713-2.308 2.6194-3.4278 0.37631-0.5634 0.36011-1.1981 0.36011-1.1981z" fill="url(#cg)" fill-rule="evenodd"/>
+  <path d="m48.173 999.61s-4.5862 3.7398-6.6798 5.9581c-0.95293 1.0097-2.1036 2.9821-2.3971 4.3391-0.44904 2.0768 0.82148 3.8821 2.421 4.4075 1.8866 0.6198 3.255-1.2684 3.9883-2.7298 0.26001-0.5181 0.34419-1.8285 0.06727-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.05031-1.6029 0.46806-2.353 0.6087-0.8807 1.8713-2.308 2.6194-3.4278 0.3763-0.5634 0.3601-1.1982 0.3601-1.1982z" fill="url(#dj)" fill-rule="evenodd" opacity=".357"/>
+  <path d="m29.043 996.91s-4.5862 3.7398-6.6798 5.958c-0.95293 1.0098-2.1036 2.9821-2.397 4.3391-0.44905 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8284 0.0673-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.0503-1.6029 0.46806-2.353 0.60869-0.8807 1.8713-2.308 2.6194-3.4278 0.37631-0.5634 0.36011-1.1981 0.36011-1.1981z" fill="url(#ca)" fill-rule="evenodd"/>
+  <path d="m28.971 997.05s-4.5862 3.7398-6.6798 5.9581c-0.95293 1.0097-2.1036 2.9821-2.3971 4.3391-0.44904 2.0767 0.82148 3.882 2.421 4.4075 1.8866 0.6198 3.255-1.2685 3.9883-2.7298 0.26001-0.5182 0.34419-1.8285 0.06727-3.0038-0.24302-1.0316-0.83678-1.9733-0.84725-1.9922 0 0-0.05031-1.6029 0.46806-2.3529 0.6087-0.8808 1.8713-2.308 2.6194-3.4279 0.3763-0.56336 0.3601-1.1981 0.3601-1.1981z" fill="url(#da)" fill-rule="evenodd" opacity=".342"/>
+  <path d="m84.918 1028.7s-4.5862 3.7398-6.6798 5.958c-0.95293 1.0098-2.1036 2.9821-2.397 4.3391-0.44905 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8284 0.0673-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.0503-1.6029 0.46806-2.353 0.60869-0.8807 1.8713-2.308 2.6194-3.4278 0.37631-0.5634 0.36011-1.1981 0.36011-1.1981z" fill="url(#ci)" fill-rule="evenodd"/>
+  <path d="m84.665 1028.8s-4.5862 3.7398-6.6798 5.9581c-0.95293 1.0097-2.1036 2.9821-2.3971 4.3391-0.44904 2.0767 0.82148 3.882 2.421 4.4075 1.8866 0.6198 3.255-1.2685 3.9883-2.7298 0.26001-0.5182 0.34419-1.8285 0.06727-3.0038-0.24302-1.0316-0.83678-1.9733-0.84725-1.9922 0 0-0.05031-1.6029 0.46806-2.3529 0.6087-0.8808 1.8713-2.308 2.6194-3.4279 0.3763-0.5633 0.3601-1.1981 0.3601-1.1981z" fill="url(#de)" fill-rule="evenodd" opacity=".357"/>
+  <path d="m13.719 999.75s-4.5862 3.7398-6.6798 5.958c-0.95293 1.0098-2.1036 2.9821-2.397 4.3391-0.44905 2.0768 0.82148 3.8821 2.421 4.4076 1.8866 0.6198 3.255-1.2685 3.9883-2.7299 0.26001-0.5181 0.34419-1.8284 0.0673-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.0503-1.6029 0.46806-2.353 0.60869-0.8807 1.8713-2.308 2.6194-3.4278 0.37631-0.5634 0.36011-1.1981 0.36011-1.1981z" fill="url(#bw)" fill-rule="evenodd"/>
+  <path d="m13.702 999.99s-4.5862 3.7398-6.6798 5.9581c-0.95293 1.0097-2.1036 2.9821-2.3971 4.3391-0.44904 2.0768 0.82148 3.8821 2.421 4.4075 1.8866 0.6198 3.255-1.2684 3.9883-2.7298 0.26001-0.5181 0.34419-1.8285 0.06727-3.0038-0.24302-1.0315-0.83678-1.9732-0.84725-1.9921 0 0-0.05031-1.6029 0.46806-2.353 0.6087-0.8807 1.8713-2.308 2.6194-3.4278 0.3763-0.5634 0.3601-1.1982 0.3601-1.1982z" fill="url(#di)" fill-rule="evenodd" opacity=".351"/>
+  <g transform="matrix(.91674 0 0 .79217 10.904 255.16)">
+   <path d="m61.151 871.02c-9.2422 0-17.509 7.5661-20.728 16.901-2.311-1.0909-4.5152-2.6481-7.2076-2.6481-9.0768 0-16.992 7.4628-18.644 16.582-1.1631-0.309-2.202-0.2702-3.4564-0.2702-8.1682 0-14.603 6.1889-14.603 14.776 0 8.5872 6.6157 15.555 14.784 15.555 2.5684 0 4.9922-0.696 7.0971-1.9066 3.6331 3.897 9.5364 6.4405 16.199 6.4405 5.3666 0 10.229-1.6485 13.82-4.3248 3.0862 3.4604 7.4053 5.6038 12.189 5.6038 6.2146 0 11.647-3.6283 14.607-9.0452 2.0376 1.2259 4.3394 1.9299 6.7628 1.9299 8.4702 0 15.334-8.4112 15.334-18.788 0-9.9932-6.373-18.151-14.41-18.741-1.3613-12.446-10.58-22.066-21.743-22.066z" fill="url(#cw)" stroke="#f00" stroke-linecap="round" stroke-linejoin="round" stroke-width=".41579"/>
+   <path d="m82.543 923.98c-2.4218 0.087-6.5992-0.7949-8.6368-2.0207-0.49815 2.4871-0.6072 4.2013-2.4274 6.2952-2.6228 3.0172-6.9036 4.8039-10.572 4.8039-2.5311 0-7.025-1.0195-9.6397-2.6603-2.327-1.4603-3.4564-4.3428-4.9097-5.9723-1.339 2.4473-1.9957 3.2415-3.8956 4.7403-2.3466 1.8511-4.5087 2.7902-7.4743 2.7902-6.6628 0-8.4833-3.4834-11.351-7.6559-2.1049 1.2106-8.3073 3.1241-10.876 3.1241-4.2747 0-10.941-4.9969-12.663-10.957-0.85843-2.9714-0.80705-6.7203-0.86675-8.8709-2.0746 3.2559-3.2685 9.9225-1.8974 14.41 1.8301 5.9898 9.1054 9.5821 13.471 9.5821 2.5684 0 4.9919-0.6967 7.0968-1.9073 3.6331 3.897 9.5381 6.4392 16.201 6.4392 5.3666 0 10.228-1.6477 13.82-4.3239 3.0862 3.4603 7.4054 5.6045 12.189 5.6045 6.2146 0 11.647-3.6287 14.607-9.0456 2.0376 1.2259 4.3384 1.9314 6.7618 1.9314 4.8963 0 12.273-3.819 14.462-10.779 1.5978-5.0803 0.82233-13.24-1.3205-17.172 0.10239 1.3399-0.51118 4.9615-1.3081 8.7256-1.4732 6.9587-4.5529 12.696-10.771 12.918z" fill="url(#cx)"/>
+   <path d="m61.993 872.13s-7.2667 2.5842-10.404 6.0646c-3.2649 3.6221-6.0813 7.6789-6.8951 11.339-0.65253 2.9348-1.7528 8.2386-0.66387 12.096 1.4273 5.0561 4.198 8.4856 4.198 8.4856s-2.6815-1.3869-4.8646-3.993c-1.8297-2.1844-3.1765-5.3846-3.5865-7.7997-1.0121-5.9622 1.2656-12.342 4.2472-17.604 2.5922-4.5742 7.7284-7.4267 11.781-8.4261 3.5261-0.8697 6.1881-0.1628 6.1881-0.1628z" fill="url(#cy)" fill-rule="evenodd"/>
+   <path d="m82.543 923.98c-2.4218 0.087-6.5992-0.7949-8.6368-2.0207-0.49815 2.4871-0.6072 4.2013-2.4274 6.2952-2.6228 3.0172-6.9037 4.8039-10.572 4.8039-2.5311 0-7.025-1.0195-9.6397-2.6603-2.327-1.4603-3.4564-4.3428-4.9097-5.9723-1.339 2.4473-1.9957 3.2415-3.8956 4.7403-2.3466 1.8511-4.5087 2.7902-7.4743 2.7902-6.6628 0-8.4833-3.4834-11.351-7.6559-2.1049 1.2106-8.3073 3.1241-10.876 3.1241-4.2747 0-10.941-4.9969-12.663-10.957-0.85843-2.9714-0.80705-6.7203-0.86675-8.871-2.0746 3.256-3.2685 9.9226-1.8974 14.41 1.8301 5.9898 9.1054 9.5821 13.471 9.5821 2.5684 0 4.9919-0.6967 7.0968-1.9073 3.6331 3.897 9.5381 6.4392 16.201 6.4392 5.3666 0 10.228-1.6477 13.82-4.3239 3.0862 3.4603 7.4054 5.6045 12.189 5.6045 6.2146 0 11.647-3.6287 14.607-9.0456 2.0376 1.2259 4.3384 1.9314 6.7618 1.9314 4.8963 0 12.273-3.819 14.462-10.779 1.5978-5.0803 0.82233-13.24-1.3205-17.172 0.10239 1.3399-0.51118 4.9615-1.3081 8.7256-1.4732 6.9587-4.5529 12.696-10.771 12.918z" fill="url(#dn)" opacity=".379"/>
+   <path d="m61.993 872.13s-7.2667 2.5843-10.404 6.0647c-3.2649 3.622-6.0813 7.6789-6.8951 11.339-0.65253 2.9348-1.7528 8.2386-0.66387 12.096 1.4273 5.0561 4.198 8.4856 4.198 8.4856s-2.6815-1.3869-4.8646-3.993c-1.8297-2.1843-3.1765-5.3846-3.5865-7.7997-1.0121-5.9622 1.2656-12.342 4.2472-17.604 2.5922-4.5742 7.7284-7.4266 11.781-8.4261 3.5261-0.86967 6.1881-0.16284 6.1881-0.16284z" fill="url(#cz)" fill-rule="evenodd" opacity=".361"/>
+   <path d="m60.99 869.78c-0.13765 1.8e-4 -0.2744 0.0247-0.40481 0.0723-9.2014 0.18924-17.55 7.8015-21.139 16.83-2.1839-0.86623-3.8101-1.6857-6.2637-1.6857-9.2396 0-17.514 7.0574-19.731 16.17-0.92949-0.17316-1.9222-0.43044-2.8919-0.43044-8.8355 0-15.476 6.4065-15.476 15.751 0 9.3448 7.2148 16.922 16.05 16.922 2.4728 0 5.5538-1.0183 7.6504-2.074 3.9411 3.8416 9.0385 6.6088 15.647 6.6088 5.2539 0 9.588-1.8835 13.325-4.4216 3.2547 3.2797 7.6444 5.0105 12.428 5.0105 6.2724 0 11.796-4.0722 15.078-9.3193 1.9632 0.9948 4.4715 2.3429 6.7371 2.3429 9.2469 0 15.965-8.5773 15.965-19.604 0-10.187-5.8831-18.542-14.143-19.791-1.7726-12.637-11.271-22.382-22.832-22.382zm0 2.7329c10.015 0 18.387 8.2518 20.249 19.281-0.15298 0.016-0.28654 0.0188-0.45507 0.0392-0.83123 0.10044-1.8051 0.29945-2.8449 0.59058-2.0794 0.58227-4.4106 1.5128-6.2621 2.8535-3.2006 2.3176-4.6226 5.5663-5.123 9.7457-0.25581 2.1363-0.20698 4.9948 0.13737 5.8852 0.54606-0.4861 0.81728-3.6146 1.1275-5.1694 0.69081-3.4622 2.8129-6.4148 5.268-8.1925 1.4673-1.0625 3.612-1.9514 5.4887-2.4768 0.93834-0.26274 1.8146-0.43658 2.4903-0.51827 0.67571-0.0816 1.2375 0.0123 1.1028-0.0361l0.0223-0.0693c0.14371 0.0739 0.29905 0.11787 0.45786 0.12959 7.2939 0.53497 13.228 8.0109 13.228 17.377 0 9.7259-6.3745 17.422-14.068 17.422-2.1962 0-4.2814-0.6386-6.1448-1.7597-0.60085-0.3619-1.3596-0.1399-1.7086 0.5002-2.7408 5.0166-7.7572 8.3736-13.515 8.3736-4.4333 0-8.9286-2.3254-11.081-4.7483-2.152-2.4228-2.919-3.9214-2.1191-7.7172 0.35802-1.6988 1.3505-4.7014 3.1679-5.4323 1.9155-0.7704 3.3945-0.5456 5.1727-0.8292-2.0072-1.5102-4.6232-1.3419-6.0793-0.5302-2.212 1.2331-4.1475 3.4249-4.7293 6.1861-0.80772 3.8328 0.74332 7.4213 2.0325 9.3357-3.2212 2.0292-7.82 2.4548-12.373 2.4548-5.7116 0-11.495-1.4388-14.896-4.4358 1.1775-0.9644 3.0023-3.1031 4.2918-5.0699 1.5131-2.3077 1.4114-4.8359 1.3213-7.2385-0.54987-2.1666-0.69164-3.5464-1.8361-5.2919-0.07409 1.6509 0.57333 3.6985 0.64676 5.2656 0.07259 1.9366-0.18017 4.6597-1.3046 6.3747-2.0395 3.1107-5.2279 4.1954-5.4744 4.3424-1.8204 0.957-3.8698 1.5216-6.0471 1.5216-7.501 0-13.515-6.3593-13.515-14.189 0-7.8296 6.0142-14.189 13.515-14.189 1.1572 0 2.2766 0.14332 3.3362 0.42486 0.7015 0.1855 1.4045-0.2988 1.5439-1.0637 1.5353-8.4757 8.5571-14.894 17.041-14.894 2.0932 0 4.085 0.39557 5.9326 1.1028-0.04288 0.15755-0.0912 0.28853-0.13122 0.46102-0.20889 0.90061-0.3873 2.0072-0.51092 3.2241-0.24722 2.4338-0.29284 5.265 0.25964 7.6203 0.77471 3.3026 3.2025 5.9923 5.2847 8.3603 2.3041 1.8272 3.063 2.4452 5.6769 3.7163-1.7779-2.0145-3.3272-3.3488-4.6388-4.8393-1.892-2.1676-3.2497-5.2787-3.866-7.9062-0.41775-1.7809-0.42359-4.4338-0.19816-6.6531 0.11278-1.1096 0.27792-2.1199 0.44948-2.8595 0.08576-0.36983 0.17568-0.67264 0.24567-0.86478 0.07004-0.19213 0.17503-0.28223 0.01144-0.10552l-0.01958-0.0211c0.11278-0.12989 0.20103-0.28247 0.25964-0.44895 3.0507-8.8466 10.495-15.039 19.18-15.039z" color="#000000" color-rendering="auto" fill="#273c65" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+  </g>
+  <path d="m26.121 998.51c-1.5401 0.96176-3.2003 2.2984-4.3694 3.5372-1.1038 1.1695-2.2618 3.109-2.6188 4.7603-0.54442 2.5178 0.97048 4.7666 3.0094 5.4363 1.2562 0.4124 2.3832 0.072 3.2765-0.6228 0.89333-0.6944 1.4553-1.7677 1.6701-2.8134 0.20012-0.9741-0.01518-2.1346-0.35126-3.0808-0.4274-1.2034-1.2966-2.2782-1.5754-2.011 0 0 0.57797 1.261 0.70577 2.175 0.14294 1.0224 0.10085 2.1985-0.0968 2.8687-0.16055 0.5443-0.72743 1.3782-1.0856 1.6761-0.5326 0.443-1.6036 0.8459-2.2341 0.6386-1.16-0.3815-2.129-2.13-1.7753-3.7657 0.22978-1.0627 1.5625-3.1957 2.3645-4.0456 0.92449-0.9795 2.3002-2.4379 3.5882-3.6236 1.0875-1.0011 2.7143-2.5193 2.3953-2.6504-0.18023-0.15513-2.2594 1.119-2.9031 1.521z" color="#000000" color-rendering="auto" fill="url(#dp)" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+  <path d="m45.324 1001.1c-1.5401 0.9618-3.2003 2.2985-4.3694 3.5372-1.1038 1.1696-2.2618 3.109-2.6188 4.7603-0.54442 2.5178 0.97048 4.7667 3.0094 5.4364 1.2562 0.4123 2.3832 0.071 3.2765-0.6229 0.89333-0.6944 1.4553-1.7677 1.6701-2.8134 0.20012-0.9741-0.01518-2.1346-0.35126-3.0808-0.4274-1.2033-1.2966-2.2782-1.5754-2.011 0 0 0.57797 1.2611 0.70577 2.175 0.14294 1.0224 0.10085 2.1986-0.0968 2.8688-0.16055 0.5443-0.72743 1.3781-1.0856 1.676-0.5326 0.4431-1.6036 0.8459-2.2341 0.6386-1.16-0.3814-2.129-2.13-1.7753-3.7657 0.22978-1.0627 1.5625-3.1957 2.3645-4.0455 0.92449-0.9796 2.3002-2.438 3.5882-3.6236 1.0875-1.0012 2.7143-2.5193 2.3953-2.6504-0.18023-0.15513-2.2594 1.119-2.9031 1.521z" color="#000000" color-rendering="auto" fill="url(#dq)" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+  <path d="m66.663 1003.5c-1.5401 0.9617-3.2003 2.2984-4.3694 3.5371-1.1038 1.1696-2.2618 3.109-2.6188 4.7603-0.54442 2.5178 0.97048 4.7667 3.0094 5.4364 1.2562 0.4123 2.3832 0.071 3.2765-0.6229 0.89333-0.6944 1.4553-1.7676 1.6701-2.8134 0.20012-0.9741-0.01518-2.1346-0.35126-3.0808-0.4274-1.2033-1.2966-2.2782-1.5754-2.011 0 0 0.57797 1.2611 0.70577 2.175 0.14294 1.0225 0.10085 2.1986-0.0968 2.8688-0.16055 0.5443-0.72743 1.3781-1.0856 1.6761-0.5326 0.443-1.6036 0.8458-2.2341 0.6385-1.16-0.3814-2.129-2.13-1.7753-3.7657 0.22978-1.0627 1.5625-3.1956 2.3645-4.0455 0.92449-0.9796 2.3002-2.4379 3.5882-3.6236 1.0875-1.0012 2.7143-2.5193 2.3953-2.6504-0.18023-0.1551-2.2594 1.119-2.9031 1.5211z" color="#000000" color-rendering="auto" fill="url(#dr)" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+  <path d="m88.76 995.77c-1.5401 0.96176-3.2003 2.2984-4.3694 3.5372-1.1038 1.1696-2.2618 3.109-2.6188 4.7603-0.54442 2.5178 0.97048 4.7667 3.0094 5.4364 1.2562 0.4123 2.3832 0.071 3.2765-0.6229 0.89333-0.6944 1.4553-1.7677 1.6701-2.8134 0.20012-0.9741-0.01518-2.1346-0.35126-3.0808-0.4274-1.2033-1.2966-2.2782-1.5754-2.011 0 0 0.57797 1.2611 0.70577 2.175 0.14294 1.0224 0.10085 2.1986-0.0968 2.8688-0.16055 0.5443-0.72743 1.3781-1.0856 1.676-0.5326 0.4431-1.6036 0.8459-2.2341 0.6386-1.16-0.3814-2.129-2.13-1.7753-3.7657 0.22978-1.0627 1.5625-3.1957 2.3645-4.0455 0.92449-0.97957 2.3002-2.438 3.5882-3.6236 1.0875-1.0011 2.7143-2.5193 2.3953-2.6504-0.18023-0.15513-2.2594 1.119-2.9031 1.521z" color="#000000" color-rendering="auto" fill="url(#bn)" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+  <path d="m31.182 1014.8c-1.5401 0.9617-3.2003 2.2984-4.3694 3.5372-1.1038 1.1695-2.2618 3.109-2.6188 4.7603-0.54442 2.5178 0.97048 4.7666 3.0094 5.4363 1.2562 0.4123 2.3832 0.072 3.2765-0.6228 0.89333-0.6945 1.4553-1.7677 1.6701-2.8134 0.20012-0.9742-0.01518-2.1347-0.35126-3.0809-0.4274-1.2033-1.2966-2.2781-1.5754-2.011 0 0 0.57797 1.2611 0.70577 2.175 0.14294 1.0225 0.10085 2.1986-0.0968 2.8688-0.16055 0.5443-0.72743 1.3781-1.0856 1.6761-0.5326 0.443-1.6036 0.8458-2.2341 0.6385-1.16-0.3814-2.129-2.1299-1.7753-3.7657 0.22978-1.0627 1.5625-3.1956 2.3645-4.0455 0.92449-0.9795 2.3002-2.4379 3.5882-3.6236 1.0875-1.0011 2.7143-2.5193 2.3953-2.6504-0.18023-0.1551-2.2594 1.1191-2.9031 1.5211z" color="#000000" color-rendering="auto" fill="url(#bp)" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+  <path d="m53.658 1011.9c-1.5401 0.9618-3.2003 2.2984-4.3694 3.5372-1.1038 1.1695-2.2618 3.109-2.6188 4.7603-0.54442 2.5178 0.97048 4.7666 3.0094 5.4363 1.2562 0.4124 2.3832 0.072 3.2765-0.6228 0.89333-0.6944 1.4553-1.7677 1.6701-2.8134 0.20012-0.9742-0.01518-2.1346-0.35126-3.0809-0.4274-1.2033-1.2966-2.2781-1.5754-2.011 0 0 0.57797 1.2611 0.70577 2.175 0.14294 1.0225 0.10085 2.1986-0.0968 2.8688-0.16055 0.5443-0.72743 1.3781-1.0856 1.6761-0.5326 0.443-1.6036 0.8458-2.2341 0.6386-1.16-0.3815-2.129-2.13-1.7753-3.7658 0.22978-1.0627 1.5625-3.1956 2.3645-4.0455 0.92449-0.9795 2.3002-2.4379 3.5882-3.6236 1.0875-1.0011 2.7143-2.5193 2.3953-2.6503-0.18023-0.1552-2.2594 1.119-2.9031 1.521z" color="#000000" color-rendering="auto" fill="url(#br)" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+  <path d="m77.396 1014.2c-1.5401 0.9618-3.2003 2.2985-4.3694 3.5372-1.1038 1.1696-2.2618 3.109-2.6188 4.7603-0.54442 2.5178 0.97048 4.7667 3.0094 5.4364 1.2562 0.4123 2.3832 0.071 3.2765-0.6229 0.89333-0.6944 1.4553-1.7677 1.6701-2.8134 0.20012-0.9741-0.01518-2.1346-0.35126-3.0808-0.4274-1.2033-1.2966-2.2782-1.5754-2.011 0 0 0.57797 1.2611 0.70577 2.175 0.14294 1.0224 0.10085 2.1986-0.0968 2.8687-0.16055 0.5444-0.72743 1.3782-1.0856 1.6761-0.5326 0.4431-1.6036 0.8459-2.2341 0.6386-1.16-0.3814-2.129-2.13-1.7753-3.7657 0.22978-1.0627 1.5625-3.1957 2.3645-4.0455 0.92449-0.9796 2.3002-2.438 3.5882-3.6236 1.0875-1.0012 2.7143-2.5193 2.3953-2.6504-0.18023-0.1551-2.2594 1.119-2.9031 1.521z" color="#000000" color-rendering="auto" fill="url(#bt)" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+  <path d="m14.388 1022.9c-1.5401 0.9618-3.2003 2.2984-4.3694 3.5372-1.1038 1.1695-2.2618 3.109-2.6188 4.7603-0.54442 2.5178 0.97048 4.7666 3.0094 5.4363 1.2562 0.4124 2.3832 0.072 3.2765-0.6228 0.89333-0.6944 1.4553-1.7677 1.6701-2.8134 0.20012-0.9742-0.01518-2.1346-0.35126-3.0809-0.4274-1.2033-1.2966-2.2781-1.5754-2.0109 0 0 0.57797 1.261 0.70577 2.175 0.14294 1.0224 0.10085 2.1985-0.0968 2.8687-0.16055 0.5443-0.72743 1.3782-1.0856 1.6761-0.5326 0.443-1.6036 0.8458-2.2341 0.6386-1.16-0.3815-2.129-2.13-1.7753-3.7657 0.22978-1.0627 1.5625-3.1957 2.3645-4.0456 0.92449-0.9795 2.3002-2.4379 3.5882-3.6236 1.0875-1.0011 2.7143-2.5193 2.3953-2.6503-0.18023-0.1552-2.2594 1.119-2.9031 1.521z" color="#000000" color-rendering="auto" fill="url(#bo)" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+  <path d="m41.536 1028.2c-1.5401 0.9618-3.2003 2.2984-4.3694 3.5372-1.1038 1.1695-2.2618 3.109-2.6188 4.7603-0.54442 2.5178 0.97048 4.7666 3.0094 5.4363 1.2562 0.4124 2.3832 0.072 3.2765-0.6228 0.89333-0.6944 1.4553-1.7677 1.6701-2.8134 0.20012-0.9741-0.01518-2.1346-0.35126-3.0809-0.4274-1.2033-1.2966-2.2781-1.5754-2.0109 0 0 0.57797 1.261 0.70577 2.175 0.14294 1.0224 0.10085 2.1985-0.0968 2.8687-0.16055 0.5443-0.72743 1.3782-1.0856 1.6761-0.5326 0.443-1.6036 0.8458-2.2341 0.6386-1.16-0.3815-2.129-2.13-1.7753-3.7657 0.22978-1.0627 1.5625-3.1957 2.3645-4.0456 0.92449-0.9795 2.3002-2.4379 3.5882-3.6236 1.0875-1.0011 2.7143-2.5193 2.3953-2.6503-0.18023-0.1552-2.2594 1.119-2.9031 1.521z" color="#000000" color-rendering="auto" fill="url(#bq)" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+  <path d="m61.613 1025.8c-1.5401 0.9618-3.2003 2.2984-4.3694 3.5372-1.1038 1.1695-2.2618 3.109-2.6188 4.7603-0.54442 2.5178 0.97048 4.7666 3.0094 5.4363 1.2562 0.4123 2.3832 0.072 3.2765-0.6228 0.89333-0.6944 1.4553-1.7677 1.6701-2.8134 0.20012-0.9742-0.01518-2.1347-0.35126-3.0809-0.4274-1.2033-1.2966-2.2781-1.5754-2.011 0 0 0.57797 1.2611 0.70577 2.175 0.14294 1.0225 0.10085 2.1986-0.0968 2.8688-0.16055 0.5443-0.72743 1.3781-1.0856 1.6761-0.5326 0.443-1.6036 0.8458-2.2341 0.6386-1.16-0.3815-2.129-2.13-1.7753-3.7658 0.22978-1.0627 1.5625-3.1956 2.3645-4.0455 0.92449-0.9795 2.3002-2.4379 3.5882-3.6236 1.0875-1.0011 2.7143-2.5193 2.3953-2.6504-0.18023-0.1551-2.2594 1.1191-2.9031 1.5211z" color="#000000" color-rendering="auto" fill="url(#bs)" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+  <path d="m81.816 1030.2c-1.5401 0.9618-3.2003 2.2984-4.3694 3.5372-1.1038 1.1695-2.2618 3.109-2.6188 4.7603-0.54442 2.5178 0.97048 4.7666 3.0094 5.4363 1.2562 0.4124 2.3832 0.072 3.2765-0.6228 0.89333-0.6944 1.4553-1.7677 1.6701-2.8134 0.20012-0.9741-0.01518-2.1346-0.35126-3.0808-0.4274-1.2034-1.2966-2.2782-1.5754-2.011 0 0 0.57797 1.261 0.70577 2.175 0.14294 1.0224 0.10085 2.1985-0.0968 2.8687-0.16055 0.5443-0.72743 1.3782-1.0856 1.6761-0.5326 0.443-1.6036 0.8459-2.2341 0.6386-1.16-0.3815-2.129-2.13-1.7753-3.7657 0.22978-1.0627 1.5625-3.1957 2.3645-4.0456 0.92449-0.9795 2.3002-2.4379 3.5882-3.6236 1.0875-1.0011 2.7143-2.5193 2.3953-2.6503-0.18023-0.1552-2.2594 1.119-2.9031 1.521z" color="#000000" color-rendering="auto" fill="url(#bu)" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+  <path d="m92.422 1011.2c-1.5401 0.9617-3.2003 2.2984-4.3694 3.5371-1.1038 1.1696-2.2618 3.1091-2.6188 4.7604-0.54442 2.5178 0.97048 4.7666 3.0094 5.4363 1.2562 0.4123 2.3832 0.072 3.2765-0.6229 0.89333-0.6944 1.4553-1.7676 1.6701-2.8133 0.20012-0.9742-0.01518-2.1347-0.35126-3.0809-0.4274-1.2033-1.2966-2.2781-1.5754-2.011 0 0 0.57797 1.2611 0.70577 2.175 0.14294 1.0225 0.10085 2.1986-0.0968 2.8688-0.16055 0.5443-0.72743 1.3781-1.0856 1.6761-0.5326 0.443-1.6036 0.8458-2.2341 0.6385-1.16-0.3814-2.129-2.13-1.7753-3.7657 0.22978-1.0627 1.5625-3.1956 2.3645-4.0455 0.92449-0.9795 2.3002-2.4379 3.5882-3.6236 1.0875-1.0011 2.7143-2.5193 2.3953-2.6504-0.18023-0.1551-2.2594 1.1191-2.9031 1.5211z" color="#000000" color-rendering="auto" fill="url(#bv)" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+  <path d="m10.852 1001.5c-1.5401 0.9617-3.2003 2.2984-4.3694 3.5371-1.1038 1.1696-2.2618 3.109-2.6188 4.7603-0.54442 2.5178 0.97048 4.7667 3.0094 5.4364 1.2562 0.4123 2.3832 0.072 3.2765-0.6229 0.89333-0.6944 1.4553-1.7676 1.6701-2.8134 0.20012-0.9741-0.01518-2.1346-0.35126-3.0808-0.4274-1.2033-1.2966-2.2782-1.5754-2.011 0 0 0.57797 1.2611 0.70577 2.175 0.14294 1.0224 0.10085 2.1986-0.0968 2.8688-0.16055 0.5443-0.72743 1.3781-1.0856 1.676-0.5326 0.4431-1.6036 0.8459-2.2341 0.6386-1.16-0.3814-2.129-2.13-1.7753-3.7657 0.22978-1.0627 1.5625-3.1957 2.3645-4.0455 0.92449-0.9796 2.3002-2.4379 3.5882-3.6236 1.0875-1.0012 2.7143-2.5193 2.3953-2.6504-0.18023-0.15513-2.2594 1.119-2.9031 1.5211z" color="#000000" color-rendering="auto" fill="url(#do)" fill-rule="evenodd" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+ </g>
+</svg>

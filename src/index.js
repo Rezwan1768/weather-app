@@ -1,6 +1,3 @@
-import test from "./test";
-import "./styles.css";
+import { displayWeather } from "./weatherDisplay.js";
 
-const p = document.querySelector("p");
-p.textContent = test;
-const t = 0;
+displayWeather();
