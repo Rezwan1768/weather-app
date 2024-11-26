@@ -1,0 +1,28 @@
+div.temp-forecast {
+    display: flex;
+    background-color: orange;
+}
+
+.temp-container {
+    background-color: yellow;
+}
+
+.forecast-container {
+    background-color: green;
+}
+
+.conditions {
+    background-color: orangered;
+}
+
+div.weather-current {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.daily-weather {
+    display: flex;
+    overflow-x: hidden; /* Hide scrollbars */
+    scroll-behavior: smooth; /* Smooth scrolling */
+}

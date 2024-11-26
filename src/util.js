@@ -5,8 +5,9 @@ export function createElement(element, className = "", textContent = "") {
     return elem;
 }
 
-export function createImgElement(src, width = "100", height = "100") {
+export function createImgElement(src, width = "80", height = "80") {
     const img = new Image(width, height);
     img.src = src;
     return img;
 }
+
