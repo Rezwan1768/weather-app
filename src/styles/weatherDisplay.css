@@ -15,7 +15,7 @@ div.temp-forecast {
     background-color: orangered;
 }
 
-div.weather-current {
+div.current-weather {
     display: flex;
     justify-content: space-between;
 }

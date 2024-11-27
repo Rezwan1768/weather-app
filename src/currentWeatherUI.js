@@ -2,29 +2,32 @@ import { createElement, createImgElement } from "./util.js";
 import clouds from "./images/clouds.svg";
 import "./styles/weatherDisplay.css";
 
+// Returns a diiv containing all the current weather information(forecast, temp, and conditions)
+export function getCurrentWeatherElem({temp, feelslike, conditions, precipprob, humidity}) {
+    const forecastElement = getCurrentForecastElement(conditions);
+    const tempElement = getCurrentTempElement(temp, feelslike);
+    const conditionElement = getCurrentConditionsElement(precipprob, humidity);
 
-export function currentWeather({temp, feelslike, conditions, precipprob, humidity}) {
-    const forecastContainer = currentForecast(conditions);
-    const tempContainer = currentTemp(temp, feelslike);
-    const conditionContainer = currentConditions(precipprob, humidity);
-
+    // I want forecast and temp to be next to each other
     const forecastAndTempContainer = createElement("div", "temp-forecast");
-    forecastAndTempContainer.append(forecastContainer, tempContainer);
+    forecastAndTempContainer.append(forecastElement, tempElement);
     
-    // const weatherContainer = createElement("div", "current-weather");
-    // weatherContainer.append(forecastAndTempContainer, conditionContainer);
-    return [forecastAndTempContainer, conditionContainer];
+    const weatherContainer = createElement("div", "current-weather");
+    weatherContainer.append(forecastAndTempContainer, conditionElement);
+    return weatherContainer;
 }
 
-function currentForecast(conditions) {
+// Returns a div with the forecast and a forecast image
+function getCurrentForecastElement(conditions) {
     const forecastContainer = createElement("div", "forecast-container");
-    const forecastImg = createImgElement(clouds);
+    const forecastImg = createImgElement(clouds, "Cloudy sky");
     const forecastElement = createElement("p","", conditions);
     forecastContainer.append(forecastImg, forecastElement);
     return forecastContainer;
 }
 
-function currentTemp(temp, feelslike) {
+// Returns a div with current temp and feelslike 
+function getCurrentTempElement(temp, feelslike) {
     const tempContainer = createElement("div", "temp-container");
     const tempElement = createElement("p", "temp-now", `${Math.round(temp)}°`);
     const feelslikeElement = createElement("p", "feelslike-now", `Feels like: ${Math.round(feelslike)}°`);
@@ -32,10 +35,11 @@ function currentTemp(temp, feelslike) {
     return tempContainer;
 }
 
-function currentConditions(precipprob, humidity) {
+// Returns a div with current weather conditions
+function getCurrentConditionsElement(precipprob, humidity) {
     const conditionsContainer = createElement("div", "conditions");
-    const precipprobElement = createElement("p", "", `Precipation: ${precipprob}%`);
+    const precipElement = createElement("p", "", `precipitation: ${precipprob}%`);
     const humidityElement = createElement("p", "", `Humidity: ${humidity}%`);
-    conditionsContainer.append(precipprobElement, humidityElement);
+    conditionsContainer.append(precipElement, humidityElement);
     return conditionsContainer;
 }
