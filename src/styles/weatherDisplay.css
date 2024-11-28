@@ -1,36 +1,32 @@
 div.temp-forecast {
-    display: flex;
-    background-color: orange;
+  display: flex;
+  background-color: orange;
 }
 
 .temp-container {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 .forecast-container {
-    background-color: green;
+  background-color: green;
 }
 
 .conditions {
-    background-color: orangered;
+  background-color: orangered;
 }
 
 div.current-weather {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*----------------------- Daily Weather Section----------------------*/
 .weather-display {
-    display: flex;
-    overflow-x: hidden;    
+  display: flex;
+  overflow-x: hidden;
 }
 
 button.weather-container {
-    width: 20%;
-    flex: none;
+  width: 20%;
+  flex: none;
 }
-
-
-
-

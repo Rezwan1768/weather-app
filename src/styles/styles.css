@@ -1,25 +1,25 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    width: max(60%, 500px);
-    margin: 20px auto;
-    /* font-size: clamp(1rem, 0.75rem + 1vw, 1.2rem); */
-    border: 2px solid black;
+  width: max(60%, 500px);
+  margin: 20px auto;
+  /* font-size: clamp(1rem, 0.75rem + 1vw, 1.2rem); */
+  border: 2px solid black;
 }
 
 button {
-    font-size: 100%;
+  font-size: 100%;
 }
