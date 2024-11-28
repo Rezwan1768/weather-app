@@ -1,15 +1,13 @@
 import { fetchWeatherData } from "./weatherData.js";
-import { getCurrentWeatherElem } from "./currentWeatherUI.js";
-import { weatherEachDay } from "./dailyWeather.js";
+import { getCurrentWeatherElement } from "./currentWeatherUI.js";
+import { getDailyWeatherElement } from "./dailyWeatherUI.js";
 
 export async function displayWeather() {
     const data = await fetchWeatherData();
     console.log(data);
     
-    document.body.appendChild(getCurrentWeatherElem(data.currentConditions));
+    document.body.appendChild(getCurrentWeatherElement(data.currentConditions));
+    document.body.appendChild(getDailyWeatherElement(data.days));
    
-    // const daysWeather = weatherEachDay(data.days);
-    // const dailyWeatherDisplay = document.querySelector("div.daily-weather");
-    // dailyWeatherDisplay.append(...daysWeather)
 }
 

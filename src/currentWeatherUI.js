@@ -3,7 +3,7 @@ import clouds from "./images/clouds.svg";
 import "./styles/weatherDisplay.css";
 
 // Returns a diiv containing all the current weather information(forecast, temp, and conditions)
-export function getCurrentWeatherElem({temp, feelslike, conditions, precipprob, humidity}) {
+export function getCurrentWeatherElement({temp, feelslike, conditions, precipprob, humidity}) {
     const forecastElement = getCurrentForecastElement(conditions);
     const tempElement = getCurrentTempElement(temp, feelslike);
     const conditionElement = getCurrentConditionsElement(precipprob, humidity);

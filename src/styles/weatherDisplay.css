@@ -20,9 +20,17 @@ div.current-weather {
     justify-content: space-between;
 }
 
-
-.daily-weather {
+/*----------------------- Daily Weather Section----------------------*/
+.weather-display {
     display: flex;
-    overflow-x: hidden; /* Hide scrollbars */
-    scroll-behavior: smooth; /* Smooth scrolling */
+    overflow-x: hidden;    
 }
+
+button.weather-container {
+    width: 20%;
+    flex: none;
+}
+
+
+
+
