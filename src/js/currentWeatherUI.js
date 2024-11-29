@@ -1,6 +1,5 @@
 import { createElement, getConditionImg } from "./util.js";
-import clouds from "./images/clouds.svg";
-import "./styles/weatherDisplay.css";
+import "../styles/weatherDisplay.css";
 
 // Returns a diiv containing all the current weather information(forecast, temp, and conditions)
 export function getCurrentWeatherElement({

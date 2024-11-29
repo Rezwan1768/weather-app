@@ -1,7 +1,7 @@
-import clouds from "./images/clouds.svg";
-import partialCloud from "./images/partially-cloudy.svg";
-import rain from "./images/rain.svg";
-import sun from "./images/sun.svg";
+import clouds from "../images/clouds.svg";
+import partialCloud from "../images/partially-cloudy.svg";
+import rain from "../images/rain.svg";
+import sun from "../images/sun.svg";
 
 export function createElement(element, className = "", textContent = "") {
   const elem = document.createElement(element);

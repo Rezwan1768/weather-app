@@ -2,7 +2,7 @@ import {
     createElement,
     getConditionImg,
 } from "./util"
-import clouds from "./images/clouds.svg";
+
 
 export function getDailyWeatherElement(days) {
     // stores the weather for each day
