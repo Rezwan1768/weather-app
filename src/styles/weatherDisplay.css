@@ -30,3 +30,28 @@ button.weather-container {
   width: 20%;
   flex: none;
 }
+
+/* Scroll Buttons Styles*/
+
+.daily-weather {
+  position: relative;
+}
+
+.daily-weather > button {
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 50px;
+  font-size: 25px;
+  opacity: 0.7;
+  position: absolute;
+  top: 30%;
+}
+
+button.next {
+  right: 0;
+}
+
+.hidden {
+  display: none;
+}
