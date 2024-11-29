@@ -1,6 +1,6 @@
 import {
     createElement,
-    createImgElement,
+    getConditionImg,
 } from "./util"
 import clouds from "./images/clouds.svg";
 
@@ -28,7 +28,8 @@ function getWeatherElement({ tempmax, tempmin, conditions, datetime = "" }) {
 }
 
 function getForecastElem(conditions) {
-    if (conditions) return createImgElement(clouds);
+    // Sometimes there can be multiple conditions, in that case just use the first one
+    if (conditions) return getConditionImg(conditions.split(",")[0]);
 }
 
 // Returns a div with high and low temp

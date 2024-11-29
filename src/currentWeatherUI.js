@@ -1,4 +1,4 @@
-import { createElement, createImgElement } from "./util.js";
+import { createElement, getConditionImg } from "./util.js";
 import clouds from "./images/clouds.svg";
 import "./styles/weatherDisplay.css";
 
@@ -26,7 +26,7 @@ export function getCurrentWeatherElement({
 // Returns a div with the forecast and a forecast image
 function getCurrentForecastElement(conditions) {
   const forecastContainer = createElement("div", "forecast-container");
-  const forecastImg = createImgElement(clouds, "Cloudy sky");
+  const forecastImg = getConditionImg(conditions.split(",")[0]);
   const forecastElement = createElement("p", "", conditions);
   forecastContainer.append(forecastImg, forecastElement);
   return forecastContainer;

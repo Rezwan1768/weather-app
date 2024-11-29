@@ -1,3 +1,8 @@
+import clouds from "./images/clouds.svg";
+import partialCloud from "./images/partially-cloudy.svg";
+import rain from "./images/rain.svg";
+import sun from "./images/sun.svg";
+
 export function createElement(element, className = "", textContent = "") {
   const elem = document.createElement(element);
   if (className) elem.className = className;
@@ -12,3 +17,13 @@ export function createImgElement(src, alt = "", width = "80", height = "80") {
   return img;
 }
 
+export function getConditionImg(condition) {
+  switch (condition.toLowerCase()) {
+    case "rain": return createImgElement(rain, "Rainy");
+    case "clear": return createImgElement(sun, "Sunny");
+    case "overcast": return createImgElement(clouds, "Cloudy");
+    case "partially cloudy":
+    default:
+      return createImgElement(partialCloud, "Partially Cloudy");
+  }
+}
