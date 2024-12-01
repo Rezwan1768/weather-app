@@ -37,9 +37,9 @@ function getForecastElem(conditions) {
 function getTempElement(tempHigh, tempLow) {
     const tempContainer = createElement("div", "temp-highlow");
     const tempHighElement = createElement("p", "temp-high");
-    tempHighElement.innerHTML = `High: ${createTempSpan(tempHigh)}°`;
+    tempHighElement.innerHTML = `High: ${createTempSpan(tempHigh)}`;
     const tempLowElement = createElement("p", "temp-low");
-    tempLowElement.innerHTML = `Low: ${createTempSpan(tempLow)}°`;
+    tempLowElement.innerHTML = `Low: ${createTempSpan(tempLow)}`;
     tempContainer.append(tempHighElement, tempLowElement);
     return tempContainer;
 }

@@ -35,10 +35,10 @@ function getCurrentForecastElement(conditions) {
 function getCurrentTempElement(temp, feelslike) {
   const tempContainer = createElement("div", "temp-container");
   const tempElement = createElement("p", "temp-now");
-  tempElement.innerHTML = `${createTempSpan(temp)}°`
-  
+  tempElement.innerHTML = `${createTempSpan(temp)}`
+
   const feelslikeElement = createElement("p","feelslike-now");
-  feelslikeElement.innerHTML=`Feels Like: ${createTempSpan(temp)}°`
+  feelslikeElement.innerHTML=`Feels Like: ${createTempSpan(temp)}`
   tempContainer.append(tempElement, feelslikeElement);
   return tempContainer;
 }

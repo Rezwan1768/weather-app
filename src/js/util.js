@@ -28,7 +28,6 @@ export function getConditionImg(condition) {
   }
 }
 
-
 export function createTempSpan(temp) {
-  return `<span class="temp">${Math.round(temp)}</span>`
+  return `<span class="temp">${Math.round(temp)}°F</span>`
 }

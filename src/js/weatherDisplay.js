@@ -2,6 +2,7 @@ import { fetchWeatherData } from "./weatherData.js";
 import { getCurrentWeatherElement } from "./currentWeatherUI.js";
 import { getDailyWeatherElement } from "./dailyWeatherUI.js";
 import { appendScrollBtns } from "./scrollBtns.js";
+import { convertTemp } from "./tempConversion.js";
 
 export async function displayWeather() {
   const data = await fetchWeatherData();
@@ -14,4 +15,7 @@ export async function displayWeather() {
   const dailyWeathercontainer = getDailyWeatherElement(data.days);
   document.body.appendChild(dailyWeathercontainer);
   appendScrollBtns(dailyWeathercontainer);
+
+  const convertTempBtn = document.querySelector("button.change-scale");
+  convertTempBtn.addEventListener("click", convertTemp);
 }
