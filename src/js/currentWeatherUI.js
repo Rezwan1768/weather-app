@@ -1,4 +1,4 @@
-import { createElement, getConditionImg } from "./util.js";
+import { createElement, createTempSpan, getConditionImg } from "./util.js";
 import "../styles/weatherDisplay.css";
 
 // Returns a diiv containing all the current weather information(forecast, temp, and conditions)
@@ -34,12 +34,11 @@ function getCurrentForecastElement(conditions) {
 // Returns a div with current temp and feelslike
 function getCurrentTempElement(temp, feelslike) {
   const tempContainer = createElement("div", "temp-container");
-  const tempElement = createElement("p", "temp-now", `${Math.round(temp)}°`);
-  const feelslikeElement = createElement(
-    "p",
-    "feelslike-now",
-    `Feels like: ${Math.round(feelslike)}°`,
-  );
+  const tempElement = createElement("p", "temp-now");
+  tempElement.innerHTML = `${createTempSpan(temp)}°`
+  
+  const feelslikeElement = createElement("p","feelslike-now");
+  feelslikeElement.innerHTML=`Feels Like: ${createTempSpan(temp)}°`
   tempContainer.append(tempElement, feelslikeElement);
   return tempContainer;
 }
@@ -47,8 +46,8 @@ function getCurrentTempElement(temp, feelslike) {
 // Returns a div with current weather conditions
 function getCurrentConditionsElement(precipprob, humidity) {
   const conditionsContainer = createElement("div", "conditions");
-  const precipElement = createElement("p", "", `precipitation: ${precipprob}%`);
-  const humidityElement = createElement("p", "", `Humidity: ${humidity}%`);
+  const precipElement = createElement("p", "", `precipitation: ${Math.round(precipprob)}%`);
+  const humidityElement = createElement("p", "", `Humidity: ${Math.round(humidity)}%`);
   conditionsContainer.append(precipElement, humidityElement);
   return conditionsContainer;
 }

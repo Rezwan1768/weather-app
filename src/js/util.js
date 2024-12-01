@@ -27,3 +27,8 @@ export function getConditionImg(condition) {
       return createImgElement(partialCloud, "Partially Cloudy");
   }
 }
+
+
+export function createTempSpan(temp) {
+  return `<span class="temp">${Math.round(temp)}</span>`
+}

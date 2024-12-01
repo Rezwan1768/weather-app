@@ -1,5 +1,6 @@
 import {
     createElement,
+    createTempSpan,
     getConditionImg,
 } from "./util"
 
@@ -35,8 +36,10 @@ function getForecastElem(conditions) {
 // Returns a div with high and low temp
 function getTempElement(tempHigh, tempLow) {
     const tempContainer = createElement("div", "temp-highlow");
-    const tempHighElement = createElement("p", "", `High: ${Math.round(tempHigh)}°`);
-    const tempLowElement = createElement("p", "", `Low: ${Math.round(tempLow)}°`);
+    const tempHighElement = createElement("p", "temp-high");
+    tempHighElement.innerHTML = `High: ${createTempSpan(tempHigh)}°`;
+    const tempLowElement = createElement("p", "temp-low");
+    tempLowElement.innerHTML = `Low: ${createTempSpan(tempLow)}°`;
     tempContainer.append(tempHighElement, tempLowElement);
     return tempContainer;
 }
