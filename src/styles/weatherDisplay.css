@@ -1,4 +1,4 @@
-div.temp-forecast {
+div.temp-cloud {
   display: flex;
   background-color: orange;
 }
@@ -7,7 +7,7 @@ div.temp-forecast {
   background-color: yellow;
 }
 
-.forecast-container {
+.cloud-container {
   background-color: green;
 }
 
@@ -21,23 +21,23 @@ div.current-weather {
 }
 
 /*----------------------- Daily Weather Section----------------------*/
-.weather-display {
+.daily-forecast {
   display: flex;
   overflow-x: hidden;
 }
 
-button.weather-container {
+button.forecast {
   width: 20%;
   flex: none;
 }
 
 /* Scroll Buttons Styles*/
 
-.daily-weather {
+.forecast-container {
   position: relative;
 }
 
-.daily-weather > button {
+.forecast-container > button {
   background-color: transparent;
   border: none;
   width: 30px;

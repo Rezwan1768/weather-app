@@ -1,23 +1,23 @@
 import { createElement } from "./util";
 export function appendScrollBtns(container) {
-    const weatherDisplay = container.querySelector(".weather-display");
-    const [prevBtn, nextBtn] = createScrollButtons(weatherDisplay);
+    const forecastDisplay = container.querySelector(".daily-forecast");
+    const [prevBtn, nextBtn] = createScrollButtons(forecastDisplay);
     container.append(prevBtn, nextBtn);
 }
 
-function createScrollButtons(weatherDisplay) {
+function createScrollButtons(forecastDisplay) {
     const prevBtn = createElement("button", "prev");
     const nextBtn = createElement("button", "next");
     prevBtn.innerHTML = "&#10094;";
     nextBtn.innerHTML = "&#10095;";
 
-    // A single weather container, used to calculate the amount to scroll by
-    const weatherContainer = weatherDisplay.querySelector(".weather-container");
+    // A single forecast container, used to calculate the amount to scroll by
+    const forecast = forecastDisplay.querySelector(".forecast");
 
     // Utility function to update button states
     const updateButtonState = () => {
-        prevBtn.disabled = weatherDisplay.scrollLeft === 0;
-        nextBtn.disabled = weatherDisplay.scrollLeft + weatherDisplay.offsetWidth >= weatherDisplay.scrollWidth;
+        prevBtn.disabled = forecastDisplay.scrollLeft === 0;
+        nextBtn.disabled = forecastDisplay.scrollLeft + forecastDisplay.offsetWidth >= forecastDisplay.scrollWidth;
         if (prevBtn.disabled) prevBtn.classList.add("hidden")
         else prevBtn.classList.remove("hidden");
 
@@ -28,18 +28,18 @@ function createScrollButtons(weatherDisplay) {
     // Initial button state
     updateButtonState();
     // Update the button states when scrolled
-    weatherDisplay.addEventListener("scroll", updateButtonState);
+    forecastDisplay.addEventListener("scroll", updateButtonState);
 
     prevBtn.addEventListener("click", () => {
-        weatherDisplay.scrollBy({
-            left: -weatherContainer.offsetWidth * 4,
+        forecastDisplay.scrollBy({
+            left: -forecast.offsetWidth * 4,
             behavior: "smooth",
         });
     });
 
     nextBtn.addEventListener("click", () => {
-        weatherDisplay.scrollBy({
-            left: weatherContainer.offsetWidth * 4,
+        forecastDisplay.scrollBy({
+            left: forecast.offsetWidth * 4,
             behavior: "smooth",
         });
     });

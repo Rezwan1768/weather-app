@@ -9,26 +9,27 @@ export function getCurrentWeatherElement({
   precipprob,
   humidity,
 }) {
-  const forecastElement = getCurrentForecastElement(conditions);
+  const cloudCondElement = getCurrentCloudCondition(conditions);
   const tempElement = getCurrentTempElement(temp, feelslike);
   const conditionElement = getCurrentConditionsElement(precipprob, humidity);
 
   // I want forecast and temp to be next to each other
-  const forecastAndTempContainer = createElement("div", "temp-forecast");
-  forecastAndTempContainer.append(forecastElement, tempElement);
+  const tempAndCloudElement = createElement("div", "temp-cloud");
+  tempAndCloudElement.append(cloudCondElement, tempElement);
 
   const weatherContainer = createElement("div", "current-weather");
-  weatherContainer.append(forecastAndTempContainer, conditionElement);
+  weatherContainer.append(tempAndCloudElement, conditionElement);
   return weatherContainer;
 }
 
-// Returns a div with the forecast and a forecast image
-function getCurrentForecastElement(conditions) {
-  const forecastContainer = createElement("div", "forecast-container");
-  const forecastImg = getConditionImg(conditions.split(",")[0]);
-  const forecastElement = createElement("p", "", conditions);
-  forecastContainer.append(forecastImg, forecastElement);
-  return forecastContainer;
+// Returns an img and description of the cloud condition
+function getCurrentCloudCondition(conditions) {
+  const cloudImg = getConditionImg(conditions.split(",")[0]);
+  const cloudElement = createElement("p", "", conditions);
+
+  const cloudCondContainer = createElement("div", "cloud-container");
+  cloudCondContainer.append(cloudImg, cloudElement);
+  return cloudCondContainer;
 }
 
 // Returns a div with current temp and feelslike
@@ -38,7 +39,7 @@ function getCurrentTempElement(temp, feelslike) {
   tempElement.innerHTML = `${createTempSpan(temp)}`
 
   const feelslikeElement = createElement("p","feelslike-now");
-  feelslikeElement.innerHTML=`Feels Like: ${createTempSpan(temp)}`
+  feelslikeElement.innerHTML=`Feels Like: ${createTempSpan(feelslike)}`;
   tempContainer.append(tempElement, feelslikeElement);
   return tempContainer;
 }

@@ -5,30 +5,30 @@ import {
 } from "./util"
 
 
-export function getDailyWeatherElement(days) {
+export function getDailyForecastElement(days) {
     // stores the weather for each day
-    const weatherDisplayContiner = createElement("div", "weather-display");
+    const forecastDisplayContiner = createElement("div", "daily-forecast");
     for (let day of days) {
-        weatherDisplayContiner.appendChild(getWeatherElement(day));
+        forecastDisplayContiner.appendChild(getForecastElement(day));
     }
 
-    const dailyWeathercontainer = createElement("div", "daily-weather");
-    dailyWeathercontainer.appendChild(weatherDisplayContiner);
-    return dailyWeathercontainer;
+    const dailyForecast = createElement("div", "forecast-container");
+    dailyForecast.appendChild(forecastDisplayContiner);
+    return dailyForecast;
 }
 
 
 
 // Returns a div with weather data for a specefic day
-function getWeatherElement({ tempmax, tempmin, conditions, datetime = "" }) {
-    const weatherContainer = createElement("button", "weather-container");
-    const forecastElement = getForecastElem(conditions);
+function getForecastElement({ tempmax, tempmin, conditions, datetime = "" }) {
+    const forecastContainer = createElement("button", "forecast");
+    const conditionElement = getConditionElement(conditions);
     const tempElement = getTempElement(tempmax, tempmin);
-    weatherContainer.append(forecastElement, tempElement);
-    return weatherContainer;
+    forecastContainer.append(conditionElement, tempElement);
+    return forecastContainer;
 }
 
-function getForecastElem(conditions) {
+function getConditionElement(conditions) {
     // Sometimes there can be multiple conditions, in that case just use the first one
     if (conditions) return getConditionImg(conditions.split(",")[0]);
 }

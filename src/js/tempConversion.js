@@ -7,7 +7,7 @@ export function convertTemp(event) {
 
     // Update button 
     btn.dataset.scale = isCelsius ? "fahrenheit" : "celsius";
-    btn.textContent = isCelsius ? "Fahrenheit" : "Celsius";
+    btn.textContent = isCelsius ? "Celsius" : "Fahrenheit";
     
      // Convert temperatures
      temps.forEach(temp => {
