@@ -5,12 +5,9 @@ import { appendScrollBtns } from "./scrollBtns.js";
 import { convertTemp } from "./tempConversion.js";
 import { createElement } from "./util.js";
 
-export async function displayWeather(location) {
-
-  const data = await fetchWeatherData(location);
-  console.log(data);
-
+export async function displayWeather(data) {
   const weatherDisplay = document.querySelector("div.weather-display");
+  weatherDisplay.innerHTML = ""; // clear any previous weather
   const convertTempBtn = createElement("button", "change-scale", "Celsius");
   convertTempBtn.addEventListener("click", convertTemp);
   weatherDisplay.appendChild(convertTempBtn);
