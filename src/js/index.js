@@ -1,13 +1,16 @@
-import { fetchWeatherData } from "./weatherData.js";
-import { displayWeather } from "./weatherDisplay.js";
+import { fetchWeatherData } from "./api/weatherData.js";
+import { displayWeather } from "./features/weatherDisplay.js";
+import { convertTemp } from "./components/tempConversion.js";
 import "../styles/styles.css";
-
+import "../styles/weatherDisplay.css";
 
 let location = "new york";  // set a inital default value
 const searchBtn = document.querySelector(".search-btn");
 const searchBox = document.querySelector("#search");
+const convertTempBtn = document.querySelector("button.change-scale");
+convertTempBtn.addEventListener("click", convertTemp);
 searchBtn.addEventListener("click", async () => {
-    document.querySelector(".change-scale").classList.add("hidden");
+    convertTempBtn.classList.add("hidden");
     if (searchBox.value.trim()) {
         const weatherDisplay = document.querySelector(".weather-display");
         location = searchBox.value.trim();
@@ -20,7 +23,7 @@ searchBtn.addEventListener("click", async () => {
         } catch (error) {
             weatherDisplay.textContent = "Please enter a valid address.";
         }
-        
+
     }
 })
 

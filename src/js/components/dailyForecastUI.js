@@ -1,8 +1,6 @@
-import {
-    createElement,
-    createTempSpan,
-    getConditionImg,
-} from "./util"
+import {createElement} from "../utils/util"
+
+import { createTempSpan, getConditionImg } from "../utils/temp.js";
 
 
 export function getDailyForecastElement(days, mode) {

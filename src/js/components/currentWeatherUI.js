@@ -1,5 +1,6 @@
-import { createElement, createTempSpan, getConditionImg } from "./util.js";
-import "../styles/weatherDisplay.css";
+import { createElement } from "../utils/util.js";
+import { createTempSpan, getConditionImg } from "../utils/temp.js";
+
 
 // Returns a diiv containing all the current weather information(forecast, temp, and conditions)
 export function getCurrentWeatherElement({
@@ -8,12 +9,12 @@ export function getCurrentWeatherElement({
   conditions,
   precipprob,
   humidity,
-  dew, 
+  dew,
   windspeed
 }, mode) {
   const cloudCondElement = getCurrentCloudCondition(conditions);
   const tempElement = getCurrentTempElement(temp, feelslike, mode);
-  const conditionElement = getCurrentConditionsElement(precipprob, humidity,dew, windspeed);
+  const conditionElement = getCurrentConditionsElement(precipprob, humidity, dew, windspeed);
 
   // I want forecast and temp to be next to each other
   const tempAndCloudElement = createElement("div", "temp-cloud");
@@ -40,8 +41,8 @@ function getCurrentTempElement(temp, feelslike, mode) {
   const tempElement = createElement("p", "temp-now");
   tempElement.innerHTML = `${createTempSpan(temp, mode)}`
 
-  const feelslikeElement = createElement("p","feelslike-now");
-  feelslikeElement.innerHTML=`Feels Like: ${createTempSpan(feelslike, mode)}`;
+  const feelslikeElement = createElement("p", "feelslike-now");
+  feelslikeElement.innerHTML = `Feels Like: ${createTempSpan(feelslike, mode)}`;
   tempContainer.append(tempElement, feelslikeElement);
   return tempContainer;
 }

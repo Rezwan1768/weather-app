@@ -1,4 +1,4 @@
-
+import { celsiusTofahrenheit, fahrenheitToCelsius } from "../utils/temp";
 
 export function convertTemp(event) {
     const btn = event.currentTarget;
@@ -19,10 +19,3 @@ export function convertTemp(event) {
     });
 }
 
-export function fahrenheitToCelsius(temp) {
-    return Math.round((temp - 32) * 5 / 9);
-}
-
-function celsiusTofahrenheit(temp) {
-    return Math.round(temp * 9 / 5 + 32);
-}

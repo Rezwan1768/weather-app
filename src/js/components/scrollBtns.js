@@ -1,4 +1,4 @@
-import { createElement } from "./util";
+import { createElement } from "../utils/util";
 export function appendScrollBtns(container) {
     const forecastDisplay = container.querySelector(".daily-forecast");
     const [prevBtn, nextBtn] = createScrollButtons(forecastDisplay);
