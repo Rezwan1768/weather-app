@@ -2,6 +2,7 @@ import clouds from "../images/clouds.svg";
 import partialCloud from "../images/partially-cloudy.svg";
 import rain from "../images/rain.svg";
 import sun from "../images/sun.svg";
+import { fahrenheitToCelsius } from "./tempConversion";
 
 export function createElement(element, className = "", textContent = "") {
   const elem = document.createElement(element);
@@ -28,6 +29,15 @@ export function getConditionImg(condition) {
   }
 }
 
-export function createTempSpan(temp) {
-  return `<span class="temp">${Math.round(temp)}°F</span>`
+export function createTempSpan(temp, mode) {
+  let tempValue = temp;
+  let unit = "°F";
+  // Convert weather and unit to clesius if current mode is set to "celsius"
+  // Fahrnehiet is the default scale
+  if (mode === "celsius") {
+    tempValue = fahrenheitToCelsius(temp);
+    unit = "°C"
+  }
+  // return createElement("span", "temp", `${Math.round(temp)}${unit}`);
+  return `<span class="temp">${Math.round(tempValue)}${unit}</span>`
 }

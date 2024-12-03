@@ -10,9 +10,9 @@ export function getCurrentWeatherElement({
   humidity,
   dew, 
   windspeed
-}) {
+}, mode) {
   const cloudCondElement = getCurrentCloudCondition(conditions);
-  const tempElement = getCurrentTempElement(temp, feelslike);
+  const tempElement = getCurrentTempElement(temp, feelslike, mode);
   const conditionElement = getCurrentConditionsElement(precipprob, humidity,dew, windspeed);
 
   // I want forecast and temp to be next to each other
@@ -35,13 +35,13 @@ function getCurrentCloudCondition(conditions) {
 }
 
 // Returns a div with current temp and feelslike
-function getCurrentTempElement(temp, feelslike) {
+function getCurrentTempElement(temp, feelslike, mode) {
   const tempContainer = createElement("div", "temp-container");
   const tempElement = createElement("p", "temp-now");
-  tempElement.innerHTML = `${createTempSpan(temp)}`
+  tempElement.innerHTML = `${createTempSpan(temp, mode)}`
 
   const feelslikeElement = createElement("p","feelslike-now");
-  feelslikeElement.innerHTML=`Feels Like: ${createTempSpan(feelslike)}`;
+  feelslikeElement.innerHTML=`Feels Like: ${createTempSpan(feelslike, mode)}`;
   tempContainer.append(tempElement, feelslikeElement);
   return tempContainer;
 }
@@ -52,8 +52,8 @@ function getCurrentConditionsElement(precipprob, humidity, dew, windspeed) {
   const precipElement = createElement("p", "", `precipitation: ${Math.round(precipprob)}%`);
   const humidityElement = createElement("p", "", `Humidity: ${Math.round(humidity)}%`);
   const dewElement = createElement("p");
-  dewElement.innerHTML = ``
-  const windElement = createElement("p", "", `Wind speed: ${Math.round(windspeed)}`);
+  dewElement.innerHTML = `Dew: ${createTempSpan(dew)}`;
+  const windElement = createElement("p", "", `Wind speed: ${Math.round(windspeed)}mph`);
   conditionsContainer.append(precipElement, humidityElement, dewElement, windElement);
   return conditionsContainer;
 }

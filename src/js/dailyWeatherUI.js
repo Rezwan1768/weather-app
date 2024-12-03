@@ -5,11 +5,11 @@ import {
 } from "./util"
 
 
-export function getDailyForecastElement(days) {
+export function getDailyForecastElement(days, mode) {
     // stores the weather for each day
     const forecastDisplayContiner = createElement("div", "daily-forecast");
     for (let day of days) {
-        forecastDisplayContiner.appendChild(getForecastElement(day));
+        forecastDisplayContiner.appendChild(getForecastElement(day, mode));
     }
 
     const dailyForecast = createElement("div", "forecast-container");
@@ -20,10 +20,10 @@ export function getDailyForecastElement(days) {
 
 
 // Returns a div with weather data for a specefic day
-function getForecastElement({ tempmax, tempmin, conditions, datetime = "" }) {
+function getForecastElement({ tempmax, tempmin, conditions, datetime = "" }, mode) {
     const forecastContainer = createElement("button", "forecast");
     const conditionElement = getConditionElement(conditions);
-    const tempElement = getTempElement(tempmax, tempmin);
+    const tempElement = getTempElement(tempmax, tempmin, mode);
     forecastContainer.append(conditionElement, tempElement);
     return forecastContainer;
 }
@@ -34,12 +34,12 @@ function getConditionElement(conditions) {
 }
 
 // Returns a div with high and low temp
-function getTempElement(tempHigh, tempLow) {
+function getTempElement(tempHigh, tempLow, mode) {
     const tempContainer = createElement("div", "temp-highlow");
     const tempHighElement = createElement("p", "temp-high");
-    tempHighElement.innerHTML = `High: ${createTempSpan(tempHigh)}`;
+    tempHighElement.innerHTML = `High: ${createTempSpan(tempHigh, mode)}`;
     const tempLowElement = createElement("p", "temp-low");
-    tempLowElement.innerHTML = `Low: ${createTempSpan(tempLow)}`;
+    tempLowElement.innerHTML = `Low: ${createTempSpan(tempLow, mode)}`;
     tempContainer.append(tempHighElement, tempLowElement);
     return tempContainer;
 }

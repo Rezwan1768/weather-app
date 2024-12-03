@@ -4,6 +4,7 @@ export function convertTemp(event) {
     const btn = event.currentTarget;
     const temps = document.querySelectorAll("span.temp");
     const isCelsius = btn.dataset.scale === "celsius";
+    console.log(isCelsius);
 
     // Update button 
     btn.dataset.scale = isCelsius ? "fahrenheit" : "celsius";
@@ -18,7 +19,7 @@ export function convertTemp(event) {
     });
 }
 
-function fahrenheitToCelsius(temp) {
+export function fahrenheitToCelsius(temp) {
     return Math.round((temp - 32) * 5 / 9);
 }
 

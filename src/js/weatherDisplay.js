@@ -7,16 +7,18 @@ import { createElement } from "./util.js";
 
 export async function displayWeather(data) {
   const weatherDisplay = document.querySelector("div.weather-display");
-  weatherDisplay.innerHTML = ""; // clear any previous weather
-  const convertTempBtn = createElement("button", "change-scale", "Celsius");
-  convertTempBtn.addEventListener("click", convertTemp);
-  weatherDisplay.appendChild(convertTempBtn);
+  weatherDisplay.innerHTML = ""; // clear any previous weather or error messages
 
-  weatherDisplay.appendChild(getCurrentWeatherElement(data.currentConditions));
+  const convertTempBtn = document.querySelector("button.change-scale");
+  convertTempBtn.addEventListener("click", convertTemp);
+  convertTempBtn.classList.remove("hidden");
+  const mode = convertTempBtn.dataset.scale;
+  console.log(mode);
+  weatherDisplay.appendChild(getCurrentWeatherElement(data.currentConditions, mode));
 
   // Need to append display weather container to DOM first, so that it's 
   // properties(scrollLeft, offsetEdith, etc...) return accurate values
-  const dailyForecastContainer = getDailyForecastElement(data.days);
+  const dailyForecastContainer = getDailyForecastElement(data.days, mode);
   weatherDisplay.appendChild(dailyForecastContainer);
   appendScrollBtns(dailyForecastContainer);
 }
