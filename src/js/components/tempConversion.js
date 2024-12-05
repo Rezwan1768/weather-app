@@ -2,15 +2,14 @@ import { celsiusTofahrenheit, fahrenheitToCelsius } from "../utils/temp";
 
 export function convertTemp(event) {
     const btn = event.currentTarget;
-    const temps = document.querySelectorAll("span.temp");
+    const temps = document.querySelectorAll("span.temp"); // get all the temps
     const isCelsius = btn.dataset.scale === "celsius";
-    console.log(isCelsius);
 
-    // Update button 
+    // Update button state
     btn.dataset.scale = isCelsius ? "fahrenheit" : "celsius";
     btn.textContent = isCelsius ? "Celsius" : "Fahrenheit";
     
-     // Convert temperatures
+     // Convert the temperatures
      temps.forEach(temp => {
         const tempValue = parseInt(temp.textContent); 
         const newTemp = isCelsius ? celsiusTofahrenheit(tempValue) : fahrenheitToCelsius(tempValue);

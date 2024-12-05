@@ -4,6 +4,7 @@ import rain from "../../images/rain.svg";
 import sun from "../../images/sun.svg";
 import { createImgElement } from "./util.js";
 
+// Returns an img element based on the description of the image
 export function getConditionImg(condition) {
     switch (condition.toLowerCase()) {
         case "rain": return createImgElement(rain, "Rainy");
@@ -18,6 +19,7 @@ export function getConditionImg(condition) {
 export function createTempSpan(temp, mode) {
     let tempValue = temp;
     let unit = "°F";
+
     // Convert weather and unit to clesius if current mode is set to "celsius"
     // Fahrnehiet is the default scale
     if (mode === "celsius") {

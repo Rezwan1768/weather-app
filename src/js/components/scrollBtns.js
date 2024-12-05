@@ -1,4 +1,5 @@
 import { createElement } from "../utils/util";
+
 export function appendScrollBtns(container) {
     const forecastDisplay = container.querySelector(".daily-forecast");
     const [prevBtn, nextBtn] = createScrollButtons(forecastDisplay);
@@ -18,6 +19,8 @@ function createScrollButtons(forecastDisplay) {
     const updateButtonState = () => {
         prevBtn.disabled = forecastDisplay.scrollLeft === 0;
         nextBtn.disabled = forecastDisplay.scrollLeft + forecastDisplay.offsetWidth >= forecastDisplay.scrollWidth;
+        
+        // Hide buttons if there is no space to scroll
         if (prevBtn.disabled) prevBtn.classList.add("hidden")
         else prevBtn.classList.remove("hidden");
 

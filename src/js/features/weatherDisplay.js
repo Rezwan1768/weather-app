@@ -8,14 +8,15 @@ export async function displayWeather(data) {
   const weatherDisplay = document.querySelector("div.weather-display");
   weatherDisplay.innerHTML = ""; // clear any previous weather or error messages
 
+  // mode is used to determine if temperature should be displayed in F or C
   const convertTempBtn = document.querySelector("button.change-scale");
-  convertTempBtn.classList.remove("hidden");
   const mode = convertTempBtn.dataset.scale;
 
-  weatherDisplay.appendChild(getCurrentWeatherElement(data.currentConditions, mode));
+  const currentWeather = getCurrentWeatherElement(data.currentConditions, mode)
+  weatherDisplay.appendChild(currentWeather);
 
-  // Need to append display weather container to DOM first, so that it's 
-  // properties(scrollLeft, offsetEdith, etc...) return accurate values
+  // Need to append display weather container to DOM before the scroll buttons, 
+  // so that it's properties(scrollLeft, offsetEdith, etc...) return accurate values
   const dailyForecastContainer = getDailyForecastElement(data.days, mode);
   weatherDisplay.appendChild(dailyForecastContainer);
   appendScrollBtns(dailyForecastContainer);
