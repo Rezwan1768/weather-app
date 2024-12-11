@@ -1,24 +1,29 @@
-div.temp-cloud {
-  display: flex;
-  background-color: orange;
+/* -------------------- Search Box -------------------- */
+.search-container {
+  margin: 15px auto;
+  width: 70%;
+
 }
 
-.temp-container {
-  background-color: yellow;
+input[type="search"] {
+ width: 75%;
+ padding: 2px;
 }
 
-.cloud-container {
-  background-color: green;
+.search-btn {
+  padding: 2px 5px;
 }
 
-.conditions {
-  background-color: orangered;
-}
 
-div.current-weather {
-  display: flex;
-  justify-content: space-between;
-}
+/* -------------------- Current Weather --------------------*/
+
+
+
+
+
+
+
+
 
 /*----------------------- Daily Weather Section----------------------*/
 .daily-forecast {
@@ -52,6 +57,3 @@ button.next {
   right: 0;
 }
 
-.hidden {
-  display: none;
-}

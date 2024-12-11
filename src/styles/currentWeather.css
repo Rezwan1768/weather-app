@@ -1,0 +1,47 @@
+div.current-weather {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 10px;
+}
+
+.date-location .location {
+    font-weight: bold;
+}
+
+.weather-info {
+    display: flex;
+    gap: 7px;
+    
+}
+
+
+.temp-cloud {
+    margin-right: 10px;
+}
+
+.temp-container .temp-now {
+    font-size: 2rem;
+  }
+  
+.temp-cloud,
+.conditions {
+    font-size: 95%;
+    line-height: 1.3;
+}
+
+@media (max-width: 750px) {
+    div.current-weather {
+        flex-direction: column;
+    }
+
+    .date-location .datetime>* {
+        display: inline;
+    }
+
+    .weather-info {
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+}

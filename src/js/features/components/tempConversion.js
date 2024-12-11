@@ -1,4 +1,4 @@
-import { celsiusTofahrenheit, fahrenheitToCelsius } from "../utils/temp";
+import { celsiusTofahrenheit, fahrenheitToCelsius } from "../../utils/temp";
 
 export function convertTemp(event) {
     const btn = event.currentTarget;
@@ -8,10 +8,10 @@ export function convertTemp(event) {
     // Update button state
     btn.dataset.scale = isCelsius ? "fahrenheit" : "celsius";
     btn.textContent = isCelsius ? "Celsius" : "Fahrenheit";
-    
-     // Convert the temperatures
-     temps.forEach(temp => {
-        const tempValue = parseInt(temp.textContent); 
+
+    // Convert the temperatures
+    temps.forEach(temp => {
+        const tempValue = parseInt(temp.textContent);
         const newTemp = isCelsius ? celsiusTofahrenheit(tempValue) : fahrenheitToCelsius(tempValue);
         const unit = isCelsius ? "°F" : "°C";
         temp.textContent = `${newTemp}${unit}`;

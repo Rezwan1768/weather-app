@@ -12,3 +12,24 @@ export function createImgElement(src, alt = "", width = "80", height = "80") {
   return img;
 }
 
+// Returns a string
+export function getLocalDate(timezone) {
+  const options = {
+    timeZone: timezone, 
+    weekday: 'long',
+    // year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  };
+
+  return new Date().toLocaleDateString("en-US", options);
+}
+
+export function getLocalTime(timezone) {
+  const options = {
+    timeZone: timezone, 
+    hour: "numeric",
+    minute: "numeric",
+  }
+  return new Date().toLocaleTimeString("en-US", options);
+}

@@ -13,13 +13,42 @@ html {
   padding: 0;
 }
 
-body {
-  width: max(60%, 500px);
-  margin: 20px auto;
-  /* font-size: clamp(1rem, 0.75rem + 1vw, 1.2rem); */
-  border: 2px solid black;
+.hidden {
+  display: none;
 }
 
-button {
+body {
+  width: max(55%, 500px);
+  min-height: 100px;
+  margin: 20px auto;
+  border: 2px solid black;
+  font-size: clamp(1rem, 0.75rem + 1vw, 1.3rem);
+}
+
+button,
+input {
+  font-family: inherit;
   font-size: 100%;
 }
+
+
+@media (max-width: 1200px) {
+  body {
+    width: max(70%, 500px);
+    /* border: none; */
+  }
+}
+
+@media (max-width: 1000px) {
+  body {
+    width: max(85%, 500px);
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    border: none;
+    width: 95%;
+  }
+}
+

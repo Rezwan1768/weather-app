@@ -1,10 +1,11 @@
 import { fetchWeatherData } from "./api/weatherData.js";
 import { displayWeather } from "./features/weatherDisplay.js";
-import { convertTemp } from "./components/tempConversion.js";
-import { getCordinates } from "./api/cordinates.js";
+import { convertTemp } from "./features/components/tempConversion.js";
+import { getCordinates } from "./api/locationData.js";
 import "../styles/styles.css";
 import "../styles/weatherDisplay.css";
-
+import "../styles/currentWeather.css";
+import { getLocalTime } from "./utils/util.js";
 
 const searchBtn = document.querySelector(".search-btn");
 const searchBox = document.querySelector("#search");
@@ -18,12 +19,12 @@ searchBtn.addEventListener("click", async () => {
     // Hide the button when there is no weather being displayed
     convertTempBtn.classList.add("hidden");
     if (searchBox.value.trim()) {
-        const weatherDisplay = document.querySelector(".weather-display");
+        const weatherDisplay = document.querySelector(".weather-container");
         let address = searchBox.value.trim();
         weatherDisplay.textContent = "Loading...";
         try {
-            // Converts the address to lattitude and longitude
-            const [lat, long] = await getCordinates(address);
+            let addressData = await getCordinates(address);
+            const [lat, long] = addressData.coordinates;
             if (!lat || !long) {
                 throw new Error("Could not find this location. Make sure the address you entered is valid");
             }
@@ -32,10 +33,11 @@ searchBtn.addEventListener("click", async () => {
                 throw new Error("No weather data available for the given location.");
             }
             console.log(weatherData);
-
+            console.log(getLocalTime(weatherData.timezone));
             convertTempBtn.classList.remove("hidden");
-            displayWeather(weatherData);
+            displayWeather(weatherData, addressData.location);
         } catch (error) {
+            console.log(error);
             weatherDisplay.textContent = "Please enter a valid address.";
         }
 
