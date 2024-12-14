@@ -1,23 +1,22 @@
 import { fetchWeatherData } from "./api/weatherData.js";
-import { displayWeather } from "./features/weatherDisplay.js";
-import { convertTemp } from "./features/components/tempConversion.js";
+import { displayWeather } from "./features/displayWeather.js";
 import { getCordinates } from "./api/locationData.js";
 import "../styles/styles.css";
-import "../styles/weatherDisplay.css";
 import "../styles/currentWeather.css";
+import "../styles/dailyForecast.css";
+import "../styles/weatherDisplay.css";
 import { getLocalTime } from "./utils/util.js";
+import { getCurrentTempScale } from "./utils/temp.js";
 
 const searchBtn = document.querySelector(".search-btn");
 const searchBox = document.querySelector("#search");
 
 // Decided to leave the scale conversion button in HTML instead of creating it with JS.
 // This is because the scale would go back to default (F), everytime it was rendered.
-const convertTempBtn = document.querySelector("button.change-scale");
-convertTempBtn.addEventListener("click", convertTemp);
+// const convertTempBtn = document.querySelector("button.change-scale");
+// convertTempBtn.addEventListener("click", convertTemp);
 
 searchBtn.addEventListener("click", async () => {
-    // Hide the button when there is no weather being displayed
-    convertTempBtn.classList.add("hidden");
     if (searchBox.value.trim()) {
         const weatherDisplay = document.querySelector(".weather-container");
         let address = searchBox.value.trim();
@@ -34,7 +33,7 @@ searchBtn.addEventListener("click", async () => {
             }
             console.log(weatherData);
             console.log(getLocalTime(weatherData.timezone));
-            convertTempBtn.classList.remove("hidden");
+            // convertTempBtn.classList.remove("hidden");
             displayWeather(weatherData, addressData.location);
         } catch (error) {
             console.log(error);
