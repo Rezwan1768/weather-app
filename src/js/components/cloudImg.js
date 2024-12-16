@@ -8,13 +8,17 @@ import { createImgElement } from "../utils/util";
 
 // Returns an img element based on the first description of the cloud condition
 export function getConditionImg(condition) {
-    switch (condition.toLowerCase()) {
-        case "rain": return createImgElement(rain, "Rainy");
-        case "clear": return createImgElement(sun, "Sunny");
-        case "overcast": return createImgElement(clouds, "Cloudy");
-        case "snow": return createImgElement(snow, "Snowy");
-        case "partially cloudy":
-        default:
-            return createImgElement(partialCloud, "Partially Cloudy");
-    }
+  switch (condition.toLowerCase()) {
+    case "rain":
+      return createImgElement(rain, "Rainy");
+    case "clear":
+      return createImgElement(sun, "Sunny");
+    case "overcast":
+      return createImgElement(clouds, "Cloudy");
+    case "snow":
+      return createImgElement(snow, "Snowy");
+    case "partially cloudy":
+    default:
+      return createImgElement(partialCloud, "Partially Cloudy");
+  }
 }

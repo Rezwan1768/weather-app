@@ -1,4 +1,9 @@
-import { createElement,getLocationElem, getLocalTime, getLocalDate } from "../../utils/util";
+import {
+  createElement,
+  getLocationElem,
+  getLocalTime,
+  getLocalDate,
+} from "../../utils/util";
 
 export function getDatetimeLocationElem(location, timezone) {
   const container = createElement("div", "date-location");

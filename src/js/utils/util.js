@@ -24,17 +24,17 @@ export function getLocationElem(location) {
 // Returns a string
 export function getLocalDate(timezone, dateString) {
   const options = {
-    weekday: 'long',
-    month: 'long',
-    day: 'numeric',
-    timeZone: timezone, 
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    timeZone: timezone,
   };
 
   // Add 'T00:00:00' to dateString to ensure the time is set to midnight.
-  // This avoids timezone shifts when converting, as JavaScript Date objects default 
-  // to the UTC time zone, and a date like '2024-12-12' would be interpreted as 
+  // This avoids timezone shifts when converting, as JavaScript Date objects default
+  // to the UTC time zone, and a date like '2024-12-12' would be interpreted as
   // '2024-12-12T00:00:00' in UTC, which may shift depending on the target timezone.
-  const date = dateString ? new Date(dateString + 'T00:00:00') : new Date();
+  const date = dateString ? new Date(dateString + "T00:00:00") : new Date();
 
   // Format the date according to the provided timezone
   return date.toLocaleDateString("en-US", options);
@@ -45,6 +45,6 @@ export function getLocalTime(timezone) {
     timeZone: timezone,
     hour: "numeric",
     minute: "numeric",
-  }
+  };
   return new Date().toLocaleTimeString("en-US", options);
 }

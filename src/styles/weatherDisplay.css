@@ -2,13 +2,12 @@
 .search-container {
   margin: 15px auto;
   width: 70%;
-
 }
 
 input[type="search"] {
   outline: none;
- width: 75%;
- padding: 2px;
+  width: 75%;
+  padding: 2px;
 }
 
 input[type="search"]:hover {
@@ -23,7 +22,6 @@ input[type="search"]:hover {
 .search-btn:hover {
   background-color: rgb(142, 165, 248);
 }
-
 
 /*Messages*/
 .weather-container .message {

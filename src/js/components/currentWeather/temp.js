@@ -17,4 +17,3 @@ export function getTempElem(tempNow, feelslike, tempScale) {
   tempContainer.append(tempAndScale, feelLikeTemp);
   return tempContainer;
 }
-

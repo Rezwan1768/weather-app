@@ -24,7 +24,10 @@ function getCloudConditionImg(conditions) {
   return container;
 }
 
-export function getTempAndCloudCond({ temp, feelslike, conditions }, tempScale) {
+export function getTempAndCloudCond(
+  { temp, feelslike, conditions },
+  tempScale,
+) {
   const tempElement = getTempElem(temp, feelslike, tempScale);
   const cloudCondition = getCloudConditionText(conditions);
 
@@ -32,7 +35,3 @@ export function getTempAndCloudCond({ temp, feelslike, conditions }, tempScale) 
   container.append(tempElement, cloudCondition);
   return container;
 }
-
-
-
-
