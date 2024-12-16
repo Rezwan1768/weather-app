@@ -1,4 +1,4 @@
-import clouds from "../../images/clouds.svg";
+import clouds from "../../images/cloudy.svg";
 import partialCloud from "../../images/partiallyCloudy.svg";
 import rain from "../../images/rain.svg";
 import sun from "../../images/sun.svg";
