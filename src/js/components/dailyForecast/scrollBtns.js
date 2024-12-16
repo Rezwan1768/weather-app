@@ -1,4 +1,4 @@
-import { createElement } from "../utils/util";
+import { createElement } from "../../utils/util";
 
 export function appendScrollBtns(forecastContainer) {
     const forecastDisplay = forecastContainer.querySelector(".daily-forecast");
@@ -12,15 +12,16 @@ function createScrollButtons(forecastDisplay) {
     leftBtn.innerHTML = "&#10094;";
     rightBtn.innerHTML = "&#10095;";
 
-    // A single forecast container, used to calculate the amount to scroll by
+    // A single forecast container, it's width is used calculate the amount to scroll by
     const forecast = forecastDisplay.querySelector(".forecast");
 
     // Utility function to update button states
     const updateButtonState = () => {
         leftBtn.disabled = forecastDisplay.scrollLeft === 0;
-        
-        // to prevent floting point issues when hiding right button
-        const tolerance = 1; 
+
+        // tolerance variable is used prevent floting point issues when 
+        // trying to disable the righ button
+        const tolerance = 1;
         rightBtn.disabled = forecastDisplay.scrollLeft + forecastDisplay.offsetWidth >= forecastDisplay.scrollWidth - tolerance;
 
         // Hide buttons if there is no space to scroll

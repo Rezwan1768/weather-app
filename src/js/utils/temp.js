@@ -1,10 +1,10 @@
-export function createTempSpan(temp, mode) {
+export function createTempSpan(temp, scale) {
     let tempValue = temp;
     let unit = "°F";
 
-    // Convert weather and unit to clesius if current mode is set to "celsius"
+    // Convert weather and unit to clesius if current scale is set to celsius
     // Fahrnehiet is the default scale
-    if (mode === "c") {
+    if (scale === "c") {
         tempValue = fahrenheitToCelsius(temp);
         unit = "°C"
     }
@@ -13,12 +13,12 @@ export function createTempSpan(temp, mode) {
 }
 
 
+let tempScale = 'f';
+export function updateTempScale(scale) {
+    tempScale = scale;
+}
+
 export function getCurrentTempScale() {
-    let tempScale = 'f';
-    const chagneScaleBtn = document.querySelector("button.change-scale");
-    if (chagneScaleBtn) {
-        tempScale = chagneScaleBtn.dataset.scale;
-    }
     return tempScale;
 }
 

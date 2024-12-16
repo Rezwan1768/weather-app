@@ -1,4 +1,4 @@
-div.forecast-detail {
+div.current-weather {
     display: flex;
     justify-content: space-between;
     padding: 5px;
@@ -23,6 +23,7 @@ div.forecast-detail {
 .temp-cloud,
 .other-conditions {
     font-size: 80%;
+    min-width: 100px;
 }
 
 .temp-container > div {
@@ -37,6 +38,7 @@ div.forecast-detail {
 
 .temp-container .change-scale {
     font-size: 1.3rem;
+    font-weight: bold;
     align-self: flex-start;
     border: none;
     background-color: inherit;
@@ -45,8 +47,9 @@ div.forecast-detail {
 }
 
 .change-scale:hover {
-    color: #007bff;
+    color: rgb(0, 136, 255);
     cursor: pointer;
+    text-decoration: none;  
 }
 
 @media (max-width: 750px) {

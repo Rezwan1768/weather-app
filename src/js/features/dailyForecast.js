@@ -3,12 +3,15 @@ import { createTempSpan } from "../utils/temp.js";
 import { getConditionImg } from "../components/cloudImg.js";
 import { addForecastClickEvent } from "../components/dailyForecast/addForecasClickEvent.js";
 import { getCurrentTempScale } from "../utils/temp.js";
+
 export function getDailyForecast(days, currentWeatherParams) {
     const tempScale = getCurrentTempScale();
-    // forecastDisplay is the container for all daily forecasts
+    // forecastDisplay is the container element for all daily forecasts
     const forecastDisplay = createElement("div", "daily-forecast");
     for (let [index, day] of days.entries()) {
         const forecast = getForecastElem(day, tempScale);
+        // Add a click event to each forecast button,
+        // shows more information about that days forecast
         addForecastClickEvent(forecast, day, index, currentWeatherParams)
         forecastDisplay.appendChild(forecast);
     }
@@ -25,10 +28,9 @@ function getForecastElem({ tempmax, tempmin, conditions }, tempScale) {
     const temp = getTempElem(tempmax, tempmin, tempScale);
 
     // Each forecast is made into button, 
-    // They will display more info on click
+    // Since they will display more info on click
     const forecastContainer = createElement("button", "forecast");
     forecastContainer.append(condition, temp);
-    // addClickEvent(forecastContainer, day, index, tempScale);
     return forecastContainer;
 }
 

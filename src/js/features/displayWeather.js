@@ -1,11 +1,10 @@
 import { getCurrentWeather } from "./currentWeather.js";
 import { getDailyForecast } from "./dailyForecast.js";
-import { appendScrollBtns } from "../components/scrollBtns.js";
+import { appendScrollBtns } from "../components/dailyForecast/scrollBtns.js";
 import { createElement } from "../utils/util.js";
-import { getCurrentTempScale } from "../utils/temp.js";
+
 
 export async function displayWeather(weatherData, location) {
-  let tempScale = getCurrentTempScale();
 
   // Will need to pass these paramters twice, easier to pass thme as an object
   const currentWeatherParams = {
@@ -19,14 +18,13 @@ export async function displayWeather(weatherData, location) {
 
   // weatherDisplay will show the weathere of a selected day (default is current)
   const weatherDisplay = createElement("div", "weather-display");
-  const currentWeather = getCurrentWeather(currentWeatherParams, tempScale);
+  const currentWeather = getCurrentWeather(currentWeatherParams);
   weatherDisplay.appendChild(currentWeather);
   weatherContainer.appendChild(weatherDisplay);
 
   // Shows weather data of the next 2 weeks plus todays
   const forecastDisplay = getDailyForecast(weatherData.days, currentWeatherParams);
   weatherContainer.appendChild(forecastDisplay);
-
 
   // Scroll Buttons needed to be appended later because their scroll amount
   // is based on the dimensions of forecastDisplay container

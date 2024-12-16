@@ -1,32 +1,82 @@
 .daily-forecast {
-    display: flex;
-    overflow-x: hidden;
-  }
+  display: flex;
+  overflow-x: hidden;
+}
 
-  button.forecast {
-    width: 20%;
-    flex: none;
-  }
+button.forecast {
+  width: 20%;
+  flex: none;
+}
 
-  .forecast-container {
-    position: relative;
-  }
-  
-  .forecast-container > button {
-    background-color: transparent;
-    border: none;
-    width: 30px;
-    height: 50px;
-    font-size: 25px;
-    opacity: 0.7;
-    position: absolute;
-    top: 30%;
-  }
-  
-  button.right {
-    right: 0;
-  }
+button.forecast:hover {
+  background-color: #c2ddfa;
+}
 
-  .forecast-container > button:hover {
-    color: #007bff;
+.forecast-container {
+  position: relative;
+}
+
+.forecast-container>button {
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 50px;
+  font-size: 25px;
+  opacity: 0.7;
+  position: absolute;
+  top: 30%;
+}
+
+button.right {
+  right: 0;
+}
+
+.forecast-container>button:hover {
+  color: #007bff;
+}
+
+
+/* Forecast Detail */
+/* A lot of the classes are same as in currenWeather. And so the
+   styles are simialr */
+div.forecast-detail {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 10px;
+}
+
+.temp-cloud {
+  line-height: 1.3;
+}
+
+.temp-cloud>.day-temp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.day-temp .high-low {
+  font-size: 100%;
+}
+
+.day-temp button.change-scale {
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  background-color: inherit;
+  /* color: grey; */
+  text-decoration: underline;
+}
+
+.day-temp button.change-scale:hover  {
+  color: rgb(0, 136, 255);
+    cursor: pointer;
+    text-decoration: none; 
+}
+
+@media (max-width: 750px) {
+  div.forecast-detail {
+      flex-direction: column;
   }
+}

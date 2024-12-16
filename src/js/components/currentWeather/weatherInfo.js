@@ -1,11 +1,12 @@
 import { createElement } from "../../utils/util";
 import { getConditionImg } from "../cloudImg";
-import { getCloudConditionText } from "./cloudCondition";
+import { getCloudConditionText } from "../cloudCondition";
 import { getConditionsElem } from "../otherConditions";
 import { getTempElem } from "./temp";
 import { getCurrentTempScale } from "../../utils/temp";
 
-export function getWeatherInfo(currentCond, tempScale) {
+export function getWeatherInfo(currentCond) {
+  const tempScale = getCurrentTempScale();
   const cloudCondImg = getCloudConditionImg(currentCond.conditions);
   const tempCloudCont = getTempAndCloudCond(currentCond, tempScale);
   const otherConditions = getConditionsElem(currentCond, tempScale);
@@ -18,7 +19,6 @@ export function getWeatherInfo(currentCond, tempScale) {
 function getCloudConditionImg(conditions) {
   // Only get the image of the first condition
   const cloudImg = getConditionImg(conditions.split(",")[0]);
-  // const cloudCond = getCloudConditionTexts(conditions);
   const container = createElement("div", "cloud-img");
   container.append(cloudImg);
   return container;

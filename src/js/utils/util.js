@@ -27,7 +27,7 @@ export function getLocalDate(timezone, dateString) {
     weekday: 'long',
     month: 'long',
     day: 'numeric',
-    timeZone: timezone, // Explicitly set the timezone for conversion
+    timeZone: timezone, 
   };
 
   // Add 'T00:00:00' to dateString to ensure the time is set to midnight.
@@ -39,8 +39,6 @@ export function getLocalDate(timezone, dateString) {
   // Format the date according to the provided timezone
   return date.toLocaleDateString("en-US", options);
 }
-
-
 
 export function getLocalTime(timezone) {
   const options = {

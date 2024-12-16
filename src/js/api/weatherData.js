@@ -11,4 +11,3 @@ export async function fetchWeatherData(lat, long) {
   }
 }
 
-//     "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/New%20York%2CUSA?key=682SGPMVGMB6KGENKEFEAE8ZL",

@@ -13,19 +13,19 @@ export async function getCordinates(address) {
     try {
         const response = await fetch(url, { mode: "cors" });
         const data = await response.json();
-        console.log(data);
+        
         // Extract the necessary data
         const extractedData = {
-            coordinates: [data[0].lat, data[0].lon],
+            coordinates: [data[0].lat, data[0].lon], // latitude and longitude
             location: {},
         }
+        // Country and city may not be present, check before adding them
         const addressInfo = data[0].address;
         if (addressInfo && "country" in addressInfo)
             extractedData.location.country = data[0].address.country;
         if (addressInfo && "city" in addressInfo) {
             extractedData.location.city = data[0].address.city;
         }
-        console.log(extractedData);
         return extractedData;
     } catch (error) {
         throw error;
